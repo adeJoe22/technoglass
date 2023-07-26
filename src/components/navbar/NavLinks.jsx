@@ -1,23 +1,9 @@
-import React, {useState} from 'react'
+import React from 'react'
 import styled from 'styled-components'
 
 import {NavLink} from 'react-router-dom'
 
 export default function NavLinks({path, label}) {
-
-  // const [isDropdownOpen, setDropdownOpen] = useState(false);
-
-  // const handleMouseEnter = () => {
-  //   if (link.isDropdown) {
-  //     setDropdownOpen(true);
-  //   }
-  // };
-
-  // const handleMouseLeave = () => {
-  //   if (link.isDropdown) {
-  //     setDropdownOpen(false);
-  //   }
-  // };
 
   const activeNav = ({isActive}) => {
       return{
@@ -32,19 +18,19 @@ export default function NavLinks({path, label}) {
         <Label>{label}</Label>
     </NavLink>
     </NavLinkWrap>
-    
-    </>
-  )
 
- 
+    </>
+  ) 
 }
 
 
 const NavLinkWrap = styled.div`
-  padding: 10px 20px;
+  padding: 10px ;
+  position: relative;
 `
 
 const Label = styled.div`
   font-size: 18px;
   font-weight: 500;
+ 
 `

@@ -31,7 +31,13 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #899926;
+  background-color: #00221B;
+  @media screen and (max-width: 768px){
+    flex-direction: column;
+    height: 80px;
+    justify-content: center;
+    
+  }
 `
 
 const InfoWrap = styled.div`
@@ -40,6 +46,13 @@ align-items: center;
 color: #fff;
 font-size: 12px;
 margin-left: 70px;
+@media screen and (max-width: 768px){
+    flex-direction: column;
+    margin-left: 0px;
+    height: 40px;
+    justify-content: center;
+
+  }
 `
 const PhoneNo = styled.div`
 
@@ -47,11 +60,22 @@ const PhoneNo = styled.div`
 const Address = styled.div`
   margin-left:  50px;
   width: 330px;
+  @media screen and (max-width: 768px){
+    display: none;
+  }
 `
 const Email = styled.div`
 margin: 20px;
 margin-left:  50px;
+@media screen and (max-width: 768px){
+    margin-left: 0px;
+    margin: 5px;
+  }
 `
 const Social = styled.div`
 margin-right: 70px;
+@media screen and (max-width: 768px){
+    margin-right: 0px;
+    
+  }
 `
