@@ -29,7 +29,7 @@ const YourFormComponent = () => {
       </FormGroup>
 
       <FormGroup>
-      <Button onClick={handleClick}>Click Me</Button>
+      <Button onClick={handleClick}>Click</Button>
       </FormGroup>
     </FormContainer>
   );
