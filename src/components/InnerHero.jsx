@@ -34,10 +34,10 @@ const Container = styled.div`
 `;
 
 const Text = styled.h1`
-  font-size: 3rem;
+  font-size: 3.5rem;
   color: #fff;
   text-align: center;
-  font-weight: 500;
+  font-weight: 600;
   padding-left: 20px;
   padding-right: 20px;
 `;
