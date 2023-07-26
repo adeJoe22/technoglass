@@ -9,7 +9,7 @@ export default function Products() {
     <ProductWrapper>
         <InnerHero
      backgroundImage={Background}
-     text="Text goes here"  
+     text="Products"  
      />
 
     <MidSection>
