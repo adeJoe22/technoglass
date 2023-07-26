@@ -8,7 +8,7 @@ const links = [
   { id: 2, label: 'ABOUT', path: '/about' },
   { id: 3, label: 'FACILITY', path: '/facility' },
   { id: 4, label: 'SECTORS', path: '/sectors' },  
-  { id: 5, label: 'GLASS PRODUCTS', isDropdown: true, options: ['Option 1', 'Option 2', 'Option 3'] },
+  { id: 5, label: 'GLASS PRODUCTS', path:'/products' },
   { id: 6, label: 'CONTACT', path: '/contact' },
 ]; 
 
@@ -20,8 +20,8 @@ export default function Header() {
           Technoglass
         </LogoWrap>
         <LinkWrap>
-            {links.map((link)=> (
-              <NavLinks key={link.id} link={link}/>
+            {links.map(({id, label, path })=> (
+              <NavLinks key={id} path={path} label={label}/>
             ))}
         </LinkWrap>
     </Nav>
@@ -29,14 +29,14 @@ export default function Header() {
 }
 
 
-const Nav = styled.div`
-  
+const Nav = styled.div`  
   width: 100%;
-  height: 100px;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   border: 1px solid red;
+  padding: 0px 50px;
 `
 
 const LogoWrap = styled.div`
@@ -44,9 +44,7 @@ const LogoWrap = styled.div`
 `
 
 const LinkWrap = styled.div`
-  width: 600px;
   height: 100%;
-  border: 1px solid green;
   align-items: center;
   display: flex;
 `

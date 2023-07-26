@@ -1,65 +1,50 @@
 import React, {useState} from 'react'
 import styled from 'styled-components'
-import DropDownMenu from './DropDownMenu';
 
+import {NavLink} from 'react-router-dom'
 
-export default function NavLinks({link}) {
+export default function NavLinks({path, label}) {
 
-  const [isDropdownOpen, setDropdownOpen] = useState(false);
+  // const [isDropdownOpen, setDropdownOpen] = useState(false);
 
-  const handleMouseEnter = () => {
-    if (link.isDropdown) {
-      setDropdownOpen(true);
-    }
-  };
+  // const handleMouseEnter = () => {
+  //   if (link.isDropdown) {
+  //     setDropdownOpen(true);
+  //   }
+  // };
 
-  const handleMouseLeave = () => {
-    if (link.isDropdown) {
-      setDropdownOpen(false);
-    }
-  };
+  // const handleMouseLeave = () => {
+  //   if (link.isDropdown) {
+  //     setDropdownOpen(false);
+  //   }
+  // };
 
-  const renderLink = () => {
-    if (link.isDropdown) {
-      return (
-        <DropdownContainer
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
-        >
-          <Button>{link.label}</Button>
-          {isDropdownOpen && <DropDownMenu options={link.options} />}
-        </DropdownContainer>
-      );
-    } else {
-      return (
-        <Link href={link.path}>
-          {link.label}
-        </Link>
-      );
-    }
-  };
+  const activeNav = ({isActive}) => {
+      return{
+        color: isActive ? 'green' : 'black',
+        textDecoration: isActive ? "none" : "none"
+      }
+  }
+  return(
+    <>
+    <NavLinkWrap>
+      <NavLink to={path} style={activeNav}>
+        <Label>{label}</Label>
+    </NavLink>
+    </NavLinkWrap>
+    
+    </>
+  )
 
-  return renderLink();
+ 
 }
 
 
-const DropdownContainer = styled.div`
-  position: relative;
-  display: inline-block;
-`;
+const NavLinkWrap = styled.div`
+  padding: 10px 20px;
+`
 
-const Button = styled.button`
-  background-color: transparent;
-  color: #333;
-  border: none;
-  cursor: pointer;
-  font-size: 16px;
-  padding: 10px;
-`;
-
-const Link = styled.a`
-  color: #333;
-  text-decoration: none;
-  font-size: 16px;
-  padding: 10px;
-`;
+const Label = styled.div`
+  font-size: 18px;
+  font-weight: 500;
+`

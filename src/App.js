@@ -1,14 +1,14 @@
 import Header from "./components/navbar/Header";
 import TopBar from "./components/navbar/TopBar";
-
+import {RouterProvider} from 'react-router-dom'
+import router from "./router";
 
 
 function App() {
   return (
    <>
-   <TopBar/>
-   <Header/>
-   <div>Other stuffs</div>
+
+  <RouterProvider router={router}/>
    </>
   );
 }
