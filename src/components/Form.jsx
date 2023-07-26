@@ -1,7 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
+import Button from '../components/Button'
 
 const YourFormComponent = () => {
+    const handleClick = () => {
+        console.log('Button clicked!');}
   return (
     <FormContainer>
 
@@ -23,6 +26,10 @@ const YourFormComponent = () => {
       <FormGroup>
         
         <TextArea rows="8" name="message" />
+      </FormGroup>
+
+      <FormGroup>
+      <Button onClick={handleClick}>Click Me</Button>
       </FormGroup>
     </FormContainer>
   );
