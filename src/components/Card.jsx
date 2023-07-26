@@ -38,21 +38,27 @@ export default Card
 
 const CardWrap = styled.div`
 width: 100%;
-height: 300px;
+
 background-color: bisque;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+padding: 40px;
 `
 
 const CapitalText = styled.h1`
     color: green;
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 `
 const DescText = styled.p`
     color: green;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    
+    margin: 30px auto;
+    text-align: center;
 `
 const ButtonWrapper = styled.div`
   display: flex;
