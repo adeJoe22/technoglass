@@ -38,4 +38,6 @@ const Text = styled.h1`
   color: #fff;
   text-align: center;
   font-weight: 500;
+  padding-left: 20px;
+  padding-right: 20px;
 `;
