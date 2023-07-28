@@ -18,7 +18,7 @@ function Footer() {
         flexDirection='column'
         color='#FFF'
         maxWidth='1280px'
-        p='22px 25px'
+        p='20px 25px'
         margin='0 auto'
       >
         <Box
@@ -119,8 +119,8 @@ function Footer() {
           mt='40px'
           mb='20px'
           justifyContent='space-between'
-          py='20px'
-          px='20px'
+          py={['0px', '20px']}
+          px={['0px', '20px']}
           flexDirection={['column', 'column', 'row']}
         >
           <Box>
@@ -130,7 +130,6 @@ function Footer() {
           </Box>
           <Box>
             <Text fontSize='18px' fontWeight='400' color='#B7CC33'>
-              {' '}
               info@technoglassng.com
             </Text>
           </Box>
@@ -138,7 +137,8 @@ function Footer() {
             display='flex'
             justifyContent='space-between'
             flexDirection='row'
-            p='10px'
+            p={['0px', '10px']}
+            py={['15px', '20px']}
             maxWidth='220px'
             width='100%'
           >

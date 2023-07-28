@@ -51,12 +51,15 @@ export default function Home() {
   const Glass = [
     {
       image: GlassImage,
+      text: 'Quality and Standards',
     },
     {
       image: GlassImage2,
+      text: 'Innovative Glass Products',
     },
     {
       image: GlassImage3,
+      text: 'Boutique Processing',
     },
   ];
 
@@ -81,7 +84,28 @@ export default function Home() {
           <Swiper navigation={true} modules={[Navigation]} className='mySwiper'>
             {Glass.map((item, i) => (
               <SwiperSlide>
-                <Image width='100%' src={item.image} alt='' />
+                <Box
+                  key={i}
+                  border='3px'
+                  // p='20px'
+                  bgPosition='center'
+                  bgSize='cover'
+                  height='100vh'
+                  alignItems='center'
+                  display='flex'
+                  justifyContent='center'
+                  bgImage={item.image}
+                >
+                  <Text
+                    // pt='-30px'
+                    fontSize='42px'
+                    fontWeight='600'
+                    color='#FFF'
+                  >
+                    {item.text}
+                  </Text>{' '}
+                </Box>
+                {/* <Image width='100%' src={item.image} alt='' /> */}
               </SwiperSlide>
             ))}
           </Swiper>
@@ -100,15 +124,16 @@ export default function Home() {
         <Box
           display='flex'
           flexDirection='column'
-          p='15px 20px'
+          p={['15px 20px']}
+          pb={['80px', '0px']}
           justifyContent='center'
         >
           <Box py='25px' margin='0 auto'>
-            <Text fontWeight='700' fontSize='48px'>
+            <Text fontWeight='700' fontSize={['42px', '48px']}>
               Market Sector
             </Text>
           </Box>
-          <Box px='35px' mb='30px' height='60vh' py='30px'>
+          <Box px='35px' mb='30px' height={[null, '60vh']} py='30px'>
             <SimpleGrid
               mt='40px'
               spacing='20px'
@@ -118,7 +143,7 @@ export default function Home() {
             >
               {Data.map((item, i) => (
                 <Box
-                  height='150px'
+                  height={['105px', '150px']}
                   display='flex'
                   justifyContent='center'
                   alignItems='center'
@@ -169,7 +194,7 @@ export default function Home() {
         </Box>
         <Box pt='30px' pb='30px' bg='#F7F7F7'>
           <Box p='20px' margin='0 auto' textAlign='center' maxWidth='1280px'>
-            <Text fontWeight='700' fontSize='48px'>
+            <Text fontWeight='700' fontSize={['42px', '48px']}>
               FAQ's.
             </Text>
           </Box>
@@ -270,7 +295,7 @@ export default function Home() {
         </Box>
         <Box>
           <Box textAlign='center' px='20px' py='30px' margin='0 auto'>
-            <Text fontWeight='700' fontSize='48px'>
+            <Text fontWeight='700' fontSize={['42px', '48px']}>
               Latest Techno Glass Articles.
             </Text>
           </Box>
