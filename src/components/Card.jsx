@@ -38,7 +38,6 @@ export default Card
 
 const CardWrap = styled.div`
 width: 100%;
-
 background-color: #00221b;
 display: flex;
 flex-direction: column;
@@ -49,6 +48,7 @@ padding: 40px;
 
 const CapitalText = styled.h1`
     color: #fff;
+    font-size: 2.5rem;
     text-align: center;
     margin: 0 auto;
     padding-left: 15px;
@@ -61,7 +61,7 @@ const DescText = styled.p`
 `
 const ButtonWrapper = styled.div`
   display: flex;
-  gap: 10px;
+  gap: 15px;
   margin-top: 10px;
   @media (max-width: 767px) {
     flex-direction: column;
@@ -75,7 +75,7 @@ const Button = styled.button`
   border-radius: 20px;
   cursor: pointer;
   &:hover {
-    background-color: #fff;
-    color: #899926;
+    background-color: #6e7a1e;
+    color: #fff;
   }
 `;

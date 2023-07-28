@@ -2,14 +2,14 @@ import React from 'react'
 import {styled} from 'styled-components'
 import InnerHero from '../components/InnerHero'
 import Card from '../components/Card'
-import Background from '../assets/background.jpg'
+import FacilityGlass from '../assets/glass-city.jpg'
 import Footer from '../components/Footer'
 
 export default function Facility() {
   return (
     <FacilityWrapper>
          <InnerHero
-          backgroundImage={Background}
+          backgroundImage={FacilityGlass}
           text="Facility"  
      />
 
@@ -46,7 +46,9 @@ export default function Facility() {
 
 const FacilityWrapper = styled.div``
 const MidSection = styled.div`
-  padding: 50px 70px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 30px 0;
 `
 const Text = styled.p`
   margin-bottom: 20px;

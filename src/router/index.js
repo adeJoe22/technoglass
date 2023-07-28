@@ -15,6 +15,7 @@ import Transport from "../pages/sectors/Transport"
 import World from "../pages/sectors/World"
 import AboutLayout from '../layout/AboutLayout'
 import SectorLayout from '../layout/SectorLayout'
+import Errpage from '../Errpage'
 
 
 const router = createBrowserRouter([
@@ -87,8 +88,14 @@ const router = createBrowserRouter([
           }
         ]
       },
+      {
+        path: '*',
+        element: <Errpage/>
+      },
     ]
+    
   }
+  
 ])
 
 export default router

@@ -1,7 +1,7 @@
 import React from 'react'
 import {styled} from 'styled-components'
 import InnerHero from '../components/InnerHero'
-import Background from '../assets/background.jpg'
+import Background from '../assets/cityy.jpg'
 import Form from '../components/Form'
 import Map from '../components/Map'
 import {BiSolidPhone} from 'react-icons/bi'
@@ -86,7 +86,6 @@ const ContactWrapper = styled.div`
 `
 const SectionTwo = styled.div`
   display: flex;
- 
   @media screen and (max-width: 768px) {
     flex-direction: column;
   }

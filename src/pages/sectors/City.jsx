@@ -2,14 +2,15 @@ import React from 'react'
 import {styled} from 'styled-components'
 import InnerHero from '../../components/InnerHero'
 import Card from '../../components/Card'
-import Background from '../../assets/background.jpg'
+import Glass from '../../assets/glass.jpg'
 import Footer from '../../components/Footer'
+import UniversalGlass from '../../assets/glass-office.jpeg'
 
 export default function City() {
   return (
     <CityWrapper>
          <InnerHero
-          backgroundImage={Background}
+          backgroundImage={Glass}
           text="City"  
      />
 
@@ -17,7 +18,7 @@ export default function City() {
       <Left>
         <ImageContainer>
           <OfficeText>City</OfficeText>
-          <Image src={Background}/>
+          <Image src={UniversalGlass}/>
         </ImageContainer>
       </Left>
 
