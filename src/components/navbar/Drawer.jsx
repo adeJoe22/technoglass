@@ -52,9 +52,9 @@ const SDrawer = styled.div`
   z-index: 150;
   position: absolute;
   top: 0;
-  min-height: 60vh;
+  height: 100%;
   width: 70%;
-  background: rgba(0, 0, 0, 0.02);
+  background: rgba(0, 0, 0, 0.3);
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
@@ -75,7 +75,7 @@ const NavRoutes = styled.div``;
 const NavRoute = styled(Link)`
   display: flex;
   text-decoration: none;
-  color: black;
+  color: #ffffff;
   font-size: 14px;
   padding: 5px;
 `;

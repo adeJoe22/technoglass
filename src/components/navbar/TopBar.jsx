@@ -1,23 +1,37 @@
 import React from 'react'
 import { styled } from 'styled-components'
-
+import {
+  FaFacebookSquare,
+  FaInstagram,
+  FaLinkedin,
+  FaTwitterSquare,
+  FaPhone,
+} from 'react-icons/fa';
+import {AiOutlineMail} from 'react-icons/ai'
 export default function TopBar() {
   return (
     <Container>
       <InfoWrap>
         <PhoneNo>
-          +234-703 274 9126
+          <FaPhone/>
+          <div>+234-703 274 9126</div>          
         </PhoneNo>
         <Address>
-        Plot C62, Crystal Glass Close, Amowo Odofin Industrial Estate, Off Oshodi Apapa Expressway, Festac Town.
+
+        <div>Plot C62, Crystal Glass Close, Amowo Odofin Industrial Estate, Off Oshodi Apapa Expressway, Festac Town.</div>
       </Address>
       <Email>
-      info@technoglassng.com
+        <AiOutlineMail/>
+      <div>info@technoglassng.com</div>
       </Email>
       </InfoWrap>
       
       <Social>
-Social
+        <div><FaFacebookSquare/></div>
+        <div><FaInstagram/></div>
+        <div><FaLinkedin/></div>
+        <div><FaTwitterSquare/></div>
+
       </Social>
     </Container>
   )
@@ -55,11 +69,24 @@ margin-left: 70px;
   }
 `
 const PhoneNo = styled.div`
-
+display: flex;
+align-items: center;
+justify-content: center;
+svg{
+  margin-right: 5px;
+  font-size: 20px;
+}
 `
 const Address = styled.div`
   margin-left:  50px;
   width: 330px;
+  display: flex;
+align-items: center;
+justify-content: center;
+svg{
+  margin-right: 5px;
+  font-size: 20px;
+}
   @media screen and (max-width: 768px){
     display: none;
   }
@@ -67,6 +94,13 @@ const Address = styled.div`
 const Email = styled.div`
 margin: 20px;
 margin-left:  50px;
+display: flex;
+align-items: center;
+justify-content: center;
+svg{
+  margin-right: 5px;
+  font-size: 20px;
+}
 @media screen and (max-width: 768px){
     margin-left: 0px;
     margin: 5px;
@@ -74,8 +108,16 @@ margin-left:  50px;
 `
 const Social = styled.div`
 margin-right: 70px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 120px;
+div{
+  color: #ffffff;
+  font-size: 20px;
+}
 @media screen and (max-width: 768px){
     margin-right: 0px;
-    
+    font-size: 17px;
   }
 `

@@ -67,9 +67,10 @@ object-fit: contain;
 
 const LinkWrap = styled.div`
   height: 100%;
-  width: 700px;
+  width: 620px;
   display: flex;
   align-items: center;
+  /* background-color: red; */
   @media (max-width: 768px) {
     display: none;
   }
@@ -78,7 +79,7 @@ const LinkWrap = styled.div`
 const Label = styled.div`
   font-size: 18px;
   font-weight: 500;
- margin-right: 15px;
+ margin-left: 15px;
 `
 const Drawer = styled.div`
 font-size: 25px;

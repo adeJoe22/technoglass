@@ -41,11 +41,12 @@ const MenuButton = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color: #ffffff;
 `;
 
 const SubRoute = styled(Link)`
   text-decoration: none;
-  color: black;
+  color: #ffffff;
   padding: 4px 7px;
   font-size: 14px;
 `;

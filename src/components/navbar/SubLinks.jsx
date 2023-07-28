@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { styled } from 'styled-components'
 
-export default function SubLinks({link , toggle}) {
+export default function SubLinks({link}) {
 
   const activeNav = ({isActive}) => {
     return{
@@ -62,7 +62,7 @@ const Wrapper = styled.div`
 
 const RouteName = styled.div`
  /* padding: 1rem; */
- margin-right: 15px;
+ margin-left: 15px;
  font-size: 18px;
   font-weight: 500;
   &:hover {
