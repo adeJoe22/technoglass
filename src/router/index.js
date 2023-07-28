@@ -1,11 +1,9 @@
 import {createBrowserRouter} from 'react-router-dom'
 import Root from '../layout/Root'
 import Home from '../pages/Home'
-import About from '../pages/About'
 import Contact from '../pages/Contact'
 import Facility from '../pages/Facility'
 import Products from '../pages/Products'
-import Sectors from '../pages/Sectors'
 import Profile from "../pages/about/Profile"
 import QualityAndStandard from "../pages/about/QualityAndStandard"
 import City from "../pages/sectors/City"
@@ -15,6 +13,8 @@ import Office from "../pages/sectors/Office"
 import Retail from "../pages/sectors/Retail"
 import Transport from "../pages/sectors/Transport"
 import World from "../pages/sectors/World"
+import AboutLayout from '../layout/AboutLayout'
+import SectorLayout from '../layout/SectorLayout'
 
 
 const router = createBrowserRouter([
@@ -39,8 +39,8 @@ const router = createBrowserRouter([
         element: <Products/>
       },
       {
-        path: 'sectors',
-        element: <Sectors/>,
+        path: "sectors",
+        element: <SectorLayout/>,
         children: [
           {
             path: "city",
@@ -74,7 +74,7 @@ const router = createBrowserRouter([
       },
       {
         path: 'about',
-        element: <About/>,
+        element: <AboutLayout/>,
         children: [
           {
             path: "profile",

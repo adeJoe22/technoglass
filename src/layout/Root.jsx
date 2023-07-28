@@ -22,7 +22,7 @@ export default function Root() {
        <TopBar/>
        <div>
          <Drawer links={links} isOpen={isOpen} toggleDrawer={toggleDrawer}/>
-       <Header toggleDrawer={toggleDrawer}/>
+       <Header links={links} toggleDrawer={toggleDrawer}/>
        </div>
       
       <Outlet/>

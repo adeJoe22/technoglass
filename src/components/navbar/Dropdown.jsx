@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { styled } from 'styled-components';
 import {FaAngleRight, FaAngleDown } from "react-icons/fa"
-import { Link } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 
 export default function Dropdown({link}) {
 
@@ -36,8 +36,8 @@ const SubRoutesContainer = styled.div`
 const SMenu = styled.div``;
 
 const MenuButton = styled.div`
-  font-size: 17px;
-  padding: 7px;
+  font-size: 14px;
+  padding: 5px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -47,5 +47,5 @@ const SubRoute = styled(Link)`
   text-decoration: none;
   color: black;
   padding: 4px 7px;
-  font-size: 17px;
+  font-size: 14px;
 `;

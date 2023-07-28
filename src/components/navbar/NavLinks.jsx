@@ -5,16 +5,11 @@ import {NavLink} from 'react-router-dom'
 
 export default function NavLinks({path, label}) {
 
-  const activeNav = ({isActive}) => {
-      return{
-        color: isActive ? 'green' : 'black',
-        textDecoration: isActive ? "none" : "none"
-      }
-  }
+
   return(
     <>
     <NavLinkWrap>
-      <NavLink to={path} style={activeNav}>
+      <NavLink to={path} >
         <Label>{label}</Label>
     </NavLink>
     </NavLinkWrap>
