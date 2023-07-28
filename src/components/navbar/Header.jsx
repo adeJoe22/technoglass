@@ -1,6 +1,6 @@
 import React from 'react'
 import  styled  from 'styled-components';
-// import NavLinks from './NavLinks';
+import logo from '../../assets/Tecnologo.png'
 import SubLinks from './SubLinks';
 import { FaBars } from "react-icons/fa";
 import { NavLink } from 'react-router-dom';
@@ -20,7 +20,7 @@ export default function Header({toggleDrawer, links}) {
         <FaBars/>
       </Drawer>
         <LogoWrap>
-          Technoglass
+          <img src={logo} alt={logo}/>
         </LogoWrap>
         <LinkWrap>
             {links.map((link)=> {
@@ -53,7 +53,16 @@ const Nav = styled.div`
 `
 
 const LogoWrap = styled.div`
-  
+  width: 220px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img{
+width: 100%;
+height: 100%;
+object-fit: contain;
+  }
 `
 
 const LinkWrap = styled.div`

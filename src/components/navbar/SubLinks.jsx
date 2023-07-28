@@ -74,7 +74,7 @@ const RouteName = styled.div`
 
 const Label = styled.div`
   text-decoration: none;
-  color: black;
+  color: #ffffff;
   padding: 10px;
   transition: 0.3s ease-in;
   &:hover {
