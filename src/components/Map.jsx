@@ -13,7 +13,7 @@ function Map() {
     zoom: 14,
   };
   return (
-    <div style={{ height: '70vh', width: '80%' }}>
+    <div style={{ height: '60vh', width: '80%' }}>
       <GoogleMapReact
         bootstrapURLKeys={{ key: '' }}
         defaultCenter={defaultProps.center}

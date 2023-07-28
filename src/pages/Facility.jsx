@@ -3,6 +3,7 @@ import {styled} from 'styled-components'
 import InnerHero from '../components/InnerHero'
 import Card from '../components/Card'
 import Background from '../assets/background.jpg'
+import Footer from '../components/Footer'
 
 export default function Facility() {
   return (
@@ -36,6 +37,8 @@ export default function Facility() {
     button1Text="Click here"
     button2Text="Click me"
     />
+
+    <Footer />
     </FacilityWrapper>
   )
 }

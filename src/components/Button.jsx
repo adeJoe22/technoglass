@@ -12,13 +12,14 @@ const UniversalButton = styled.button`
   font-size: 16px;
   border: none;
   border-radius: 5px;
-  background-color: green;
+  background-color: #00221B;
   color: #ffffff;
   cursor: pointer;
   width: fit-content;
 
   &:hover {
-    background-color: #0056b3;
+    background-color: #004436;
+    color: #fff;
   }
 
   &:focus {

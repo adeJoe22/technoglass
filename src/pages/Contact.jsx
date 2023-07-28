@@ -7,6 +7,7 @@ import Map from '../components/Map'
 import {BiSolidPhone} from 'react-icons/bi'
 import {BiMessageRounded} from 'react-icons/bi'
 import {FaMapMarkerAlt} from 'react-icons/fa'
+import Footer from '../components/Footer'
 
 
 
@@ -33,7 +34,7 @@ export default function Contact() {
             </PhoneHead>
           <Contain>
             <Icon>
-              <Phone />
+              <Phone size={20}/>
             </Icon>
             <Text type="tel">
               +44 (0)121-565-6500
@@ -42,7 +43,7 @@ export default function Contact() {
 
           <Contain>
             <Icon>
-              <Phone />
+              <Phone size={20}/>
             </Icon>
             <Text type="tel">
               +44 (0)121-565-6500
@@ -51,7 +52,7 @@ export default function Contact() {
 
           <Contain>
             <Icon>
-              <Message />
+              <Message size={20}/>
             </Icon>
             <Text type="text">
             enquire@miglass.com
@@ -60,10 +61,10 @@ export default function Contact() {
 
           <Contain>
             <Icon>
-              <Address />
+              <Address size={20}/>
             </Icon>
             <Text type="address">
-              51 Downing Street, Smethwick, Birmingham B66 2PP, West Midlands, UK
+            Plot C62, Crystal Glass Close, Amowo Odofin Industrial Estate, Off Oshodi Apapa Expressway, Festac Town.
             </Text>
           </Contain>
         </MapText>
@@ -71,6 +72,9 @@ export default function Contact() {
 
         
         </SectionTwo>
+
+
+        <Footer />
     </ContactWrapper>
   )
 }
@@ -113,7 +117,7 @@ gap: 10px;
 margin: 7px 0
 `
 const Text = styled.p`
-
+  line-height: 1;
 `
 
 const Phone = styled(BiSolidPhone)`

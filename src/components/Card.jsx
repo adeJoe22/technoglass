@@ -39,7 +39,7 @@ export default Card
 const CardWrap = styled.div`
 width: 100%;
 
-background-color: bisque;
+background-color: #00221b;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -48,15 +48,14 @@ padding: 40px;
 `
 
 const CapitalText = styled.h1`
-    color: green;
+    color: #fff;
     text-align: center;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
 `
 const DescText = styled.p`
-    color: green;
-    
+    color: #fff;
     margin: 30px auto;
     text-align: center;
 `
@@ -70,12 +69,13 @@ const ButtonWrapper = styled.div`
 `;
 const Button = styled.button`
   padding: 15px 50px;
-  background-color: green;
+  background-color: #899926;
   color: #fff;
   border: none;
   border-radius: 20px;
   cursor: pointer;
   &:hover {
-    background-color: #0056b3;
+    background-color: #fff;
+    color: #899926;
   }
 `;

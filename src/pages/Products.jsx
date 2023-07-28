@@ -3,6 +3,7 @@ import {styled} from 'styled-components'
 import InnerHero from '../components/InnerHero'
 import Card from '../components/Card'
 import Background from '../assets/background.jpg'
+import Footer from '../components/Footer'
 
 export default function Products() {
   return (
@@ -45,7 +46,7 @@ export default function Products() {
   />
 
 
-        
+        <Footer />
     </ProductWrapper>
   )
 }
