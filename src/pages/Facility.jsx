@@ -47,9 +47,12 @@ export default function Facility() {
 const FacilityWrapper = styled.div``
 const MidSection = styled.div`
   width: 85%;
-  margin: 0 auto;
-  padding: 30px 0;
+   margin: 0 auto;
+   padding: 40px 0;
 `
+// const MidSection = styled.div`
+//   padding: 50px 70px;
+// `
 const Text = styled.p`
   margin-bottom: 20px;
   font-size: 14px;

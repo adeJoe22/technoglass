@@ -52,15 +52,20 @@ export default function Products() {
 }
 
 const ProductWrapper = styled.div``
+// const MidSection = styled.div`
+//   padding: 50px 70px;
+// `
 const MidSection = styled.div`
-  padding: 50px 70px;
+  width: 85%;
+   margin: 0 auto;
+   padding: 40px 0;
 `
 const Text = styled.p`
   margin-bottom: 20px;
   font-size: 14px;
 `
 const UnorderedList = styled.ul`
-padding-left: 15px;
+padding-left: 18px;
 `
 const OrderedList = styled.li`
 
