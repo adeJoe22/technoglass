@@ -2,14 +2,14 @@ import React from 'react'
 import {styled} from 'styled-components'
 import InnerHero from '../components/InnerHero'
 import Card from '../components/Card'
-import Background from '../assets/background.jpg'
+import Factory from '../assets/factoryPlant.jpg'
 import Footer from '../components/Footer'
 
 export default function Products() {
   return (
     <ProductWrapper>
         <InnerHero
-     backgroundImage={Background}
+     backgroundImage={Factory}
      text="Products"  
      />
 

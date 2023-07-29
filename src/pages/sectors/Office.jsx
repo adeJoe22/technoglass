@@ -4,6 +4,7 @@ import InnerHero from '../../components/InnerHero'
 import Card from '../../components/Card'
 import Background from '../../assets/background.jpg'
 import Footer from '../../components/Footer'
+import UniversalGlass from '../../assets/glass-office.jpeg'
 
 export default function Office() {
   return (
@@ -17,7 +18,7 @@ export default function Office() {
       <Left>
         <ImageContainer>
           <OfficeText>Office</OfficeText>
-          <Image src={Background}/>
+          <Image src={UniversalGlass}/>
         </ImageContainer>
       </Left>
 
