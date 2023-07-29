@@ -27,6 +27,8 @@ function Footer() {
           margin='0 auto'
           //   border='2px'
           width='100%'
+          py={['0px', '20px']}
+          px={['0px', '20px']}
           flexDirection={['column', 'column', 'row']}
         >
           <Box maxWidth='290px'>
