@@ -90,20 +90,29 @@ export default function Home() {
                   // p='20px'
                   bgPosition='center'
                   bgSize='cover'
-                  height='100vh'
+                  height={['67vh', '100vh']}
                   alignItems='center'
                   display='flex'
+                  flexDirection='column'
                   justifyContent='center'
                   bgImage={item.image}
+                  bgColor='#000'
+                  // bgGradient='linear - gradient(rgba(0, 0, 0, 0.527), rgba(0,0,0,0.5))'
+                  // bgImage={linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , {item.image}}
                 >
-                  <Text
-                    // pt='-30px'
-                    fontSize='42px'
-                    fontWeight='600'
-                    color='#FFF'
-                  >
+                  <Box p='10px 15px'>
+                    <Text
+                      // pt='-30px'
+                      fontSize={['24px', '42px']}
+                      fontWeight='600'
+                      color='#FFF'
+                    >
+                      {item.text}
+                    </Text>
+                  </Box>
+                  <Button variant='outline' colorScheme='whatsapp' p='10px'>
                     {item.text}
-                  </Text>{' '}
+                  </Button>
                 </Box>
                 {/* <Image width='100%' src={item.image} alt='' /> */}
               </SwiperSlide>
@@ -133,11 +142,11 @@ export default function Home() {
               Market Sector
             </Text>
           </Box>
-          <Box px='35px' mb='30px' height={[null, '60vh']} py='30px'>
+          <Box px='35px' mb='30px' height={[null, '40vh']} py='30px'>
             <SimpleGrid
               mt='40px'
               spacing='20px'
-              minChildWidth='260px'
+              minChildWidth='230px'
               direction='row'
               mb='30px'
             >
