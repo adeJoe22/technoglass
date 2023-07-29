@@ -84,36 +84,43 @@ export default function Home() {
           <Swiper navigation={true} modules={[Navigation]} className='mySwiper'>
             {Glass.map((item, i) => (
               <SwiperSlide>
-                <Box
-                  key={i}
-                  border='3px'
-                  // p='20px'
-                  bgPosition='center'
-                  bgSize='cover'
-                  height={['67vh', '100vh']}
-                  alignItems='center'
-                  display='flex'
-                  flexDirection='column'
-                  justifyContent='center'
-                  bgImage={item.image}
-                  bgColor='#000'
-                  // bgGradient='linear - gradient(rgba(0, 0, 0, 0.527), rgba(0,0,0,0.5))'
-                  // bgImage={linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , {item.image}}
-                >
-                  <Box p='10px 15px'>
-                    <Text
-                      // pt='-30px'
-                      fontSize={['24px', '42px']}
-                      fontWeight='600'
-                      color='#FFF'
+                <div style={{ backgroundColor: '#000' }}>
+                  <Box
+                    key={i}
+                    border='3px'
+                    // p='20px'
+                    bgPosition='center'
+                    bgSize='cover'
+                    height={['67vh', '100vh']}
+                    alignItems='center'
+                    display='flex'
+                    flexDirection='column'
+                    justifyContent='center'
+                    bgImage={item.image}
+                    opacity='0.8'
+                    // bgGradient='linear - gradient(rgba(0, 0, 0, 0.527), rgba(0,0,0,0.5))'
+                    // bgImage={linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , {item.image}}
+                  >
+                    <Box p='10px 15px'>
+                      <Text
+                        // pt='-30px'
+                        fontSize={['24px', '42px']}
+                        fontWeight='600'
+                        color='#FFF'
+                      >
+                        {item.text}
+                      </Text>
+                    </Box>
+                    <Button
+                      bgGradient='linear(91.32deg,rgba(255, 255, 255, 0.2) 0%, rgba(255, 255,   255, 0.05) 98.96%)'
+                      variant='outline'
+                      colorScheme='whiteAlpha'
+                      p='10px'
                     >
                       {item.text}
-                    </Text>
+                    </Button>
                   </Box>
-                  <Button variant='outline' colorScheme='whatsapp' p='10px'>
-                    {item.text}
-                  </Button>
-                </Box>
+                </div>
                 {/* <Image width='100%' src={item.image} alt='' /> */}
               </SwiperSlide>
             ))}
