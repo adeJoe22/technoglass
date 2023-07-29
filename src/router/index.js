@@ -39,7 +39,7 @@ const router = createBrowserRouter([
         element: <Products/>
       },
       {
-        
+        path: "sectors",
         element: <SectorLayout/>,
         children: [
           {
@@ -73,7 +73,7 @@ const router = createBrowserRouter([
         ]
       },
       {
-      
+        path: "about",
         element: <AboutLayout/>,
         children: [
           {

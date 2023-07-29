@@ -76,6 +76,13 @@ svg{
   margin-right: 5px;
   font-size: 20px;
 }
+@media screen and (max-width: 768px){
+    margin-left: 0px;
+    margin: 0px;
+  svg{  
+  font-size: 15px;
+}
+}
 `
 const Address = styled.div`
   margin-left:  50px;
@@ -104,6 +111,9 @@ svg{
 @media screen and (max-width: 768px){
     margin-left: 0px;
     margin: 5px;
+  svg{  
+  font-size: 15px;
+}
   }
 `
 const Social = styled.div`
@@ -118,6 +128,6 @@ div{
 }
 @media screen and (max-width: 768px){
     margin-right: 0px;
-    font-size: 17px;
+    font-size: 15px;
   }
 `

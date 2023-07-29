@@ -67,7 +67,7 @@ object-fit: contain;
 
 const LinkWrap = styled.div`
   height: 100%;
-  width: 620px;
+  width: 630px;
   display: flex;
   align-items: center;
   /* background-color: red; */
