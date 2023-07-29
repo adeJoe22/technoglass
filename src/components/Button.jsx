@@ -11,7 +11,7 @@ const UniversalButton = styled.button`
   padding: 10px 40px;
   font-size: 16px;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: #899926;
   color: #ffffff;
   cursor: pointer;

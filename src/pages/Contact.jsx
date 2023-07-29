@@ -90,17 +90,24 @@ const SectionTwo = styled.div`
     flex-direction: column;
   }
 `
+// const FormContainer = styled.div`
+// flex: 1;
+// padding-top: 20px;
+// padding-right: 40px;
+// padding-bottom: 20px;
+// padding-left: 80px;
+// flex-direction: column;
+// `
 const FormContainer = styled.div`
 flex: 1;
-padding-top: 20px;
-padding-right: 40px;
-padding-bottom: 20px;
-padding-left: 80px;
+padding: 80px 30px;
+display: flex;
 flex-direction: column;
+
 `
 const MapContainer = styled.div`
 flex: 1;
-padding: 80px 20px;
+padding: 80px 30px;
 display: flex;
 flex-direction: column;
 align-items: flex-start;

@@ -69,7 +69,7 @@ const TextArea = styled.textarea`
 const FormText = styled.h3`
     font-size: 3.25rem;
     font-weight: 500;
-    margin-top: 25px;
+    
     margin-bottom: 25px;
 `
 const Span = styled.span`
