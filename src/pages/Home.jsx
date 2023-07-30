@@ -81,7 +81,15 @@ export default function Home() {
     <div>
       <Box>
         <Box>
-          <Swiper navigation={true} modules={[Navigation]} className='mySwiper'>
+          <Swiper
+            navigation={true}
+            modules={[Navigation]}
+            style={{
+              '--swiper-pagination-color': '#fff',
+              '--swiper-navigation-color': '#fff',
+            }}
+            className='mySwiper'
+          >
             {Glass.map((item, i) => (
               <SwiperSlide>
                 <div style={{ backgroundColor: '#000' }}>
@@ -101,10 +109,16 @@ export default function Home() {
                     // bgGradient='linear - gradient(rgba(0, 0, 0, 0.527), rgba(0,0,0,0.5))'
                     // bgImage={linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , {item.image}}
                   >
-                    <Box p='10px 15px'>
+                    <Box
+                      p='10px 15px'
+                      display='flex'
+                      justifyContent='center'
+                      alignItems='center'
+                    >
                       <Text
                         // pt='-30px'
-                        fontSize={['24px', '42px']}
+                        textAlign='center'
+                        fontSize={['22px', '42px']}
                         fontWeight='600'
                         color='#FFF'
                       >
@@ -114,8 +128,10 @@ export default function Home() {
                     <Button
                       bgGradient='linear(91.32deg,rgba(255, 255, 255, 0.2) 0%, rgba(255, 255,   255, 0.05) 98.96%)'
                       variant='outline'
+                      color='#FFF'
                       colorScheme='whiteAlpha'
-                      p='10px'
+                      p='20px'
+                      opacity={30}
                     >
                       {item.text}
                     </Button>
