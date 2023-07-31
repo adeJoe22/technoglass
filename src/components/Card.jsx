@@ -2,6 +2,18 @@ import React from 'react'
 import { styled } from 'styled-components'
 
 const Card = ({Header, text, button1Text, button2Text, onButtonClick }) => {
+  const phoneNumber = '+1234567890'; 
+
+  const handleButtonClick = () => {
+    window.location.href = `tel:${phoneNumber}`;
+  };
+
+  const emailAddress = 'info@technoglassng.com';
+
+  const handleButtonEmail = () => {
+    window.location.href = `mailto:${emailAddress}`;
+  };
+
   return (
     <CardWrap>
         <CapitalText>
@@ -13,8 +25,8 @@ const Card = ({Header, text, button1Text, button2Text, onButtonClick }) => {
         </DescText>
 
         <ButtonWrapper>
-        <Button onClick={onButtonClick}>{button1Text} </Button>
-        <Button onClick={onButtonClick}>{button2Text} </Button>
+        <Button onClick={handleButtonClick}>{button1Text} </Button>
+        <Button onClick={handleButtonEmail}>{button2Text} </Button>
       </ButtonWrapper>
     </CardWrap>
 
