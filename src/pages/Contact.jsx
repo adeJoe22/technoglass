@@ -37,7 +37,7 @@ export default function Contact() {
               <Phone size={20}/>
             </Icon>
             <Text type="tel">
-              +44 (0)121-565-6500
+            + 234-703 274 9126
             </Text>
           </Contain>
 
@@ -46,7 +46,7 @@ export default function Contact() {
               <Phone size={20}/>
             </Icon>
             <Text type="tel">
-              +44 (0)121-565-6500
+            + 234-810 274 9230
             </Text>
           </Contain>
 
@@ -55,7 +55,7 @@ export default function Contact() {
               <Message size={20}/>
             </Icon>
             <Text type="text">
-            enquire@miglass.com
+            <a href='info@technoglassng.com' target='blank'>info@technoglassng.com</a>
             </Text>
           </Contain>
 
