@@ -1,9 +1,9 @@
 import React, {useState} from 'react'
 import { Outlet } from 'react-router-dom'
 import TopBar from '../components/navbar/TopBar'
-import Header from '../components/navbar/Header'
 import Drawer from '../components/navbar/Drawer';
 import { links } from '../components/navbar/links';
+import NewHeader from '../components/navbar/NewHeader';
 
 export default function Root() {
 
@@ -22,7 +22,8 @@ export default function Root() {
        <TopBar/>
        <div>
          <Drawer links={links} isOpen={isOpen} toggleDrawer={toggleDrawer}/>
-       <Header links={links} toggleDrawer={toggleDrawer}/>
+       {/* <Header links={links} toggleDrawer={toggleDrawer}/> */}
+       <NewHeader/>
        </div>
       
       <Outlet/>
