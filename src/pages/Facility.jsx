@@ -15,19 +15,24 @@ export default function Facility() {
 
      <MidSection>
       <Text>
-      With continual investment MiGlass have created an unrivalled glass processing resource supplying glass products throughout the UK & central Europe.
+      Our team of dedicated staff members, operating in a working area of 3500m2, is committed
+      to deliver high-performance products in every aspect of our business.
+      Technoglass is the symbol of courage and independence. TGI continues to be first with
+      significant advances translating into high-value-added materials that help create uniquely
+      better products in every application.
       </Text>
       <Text>
-      Our highly skilled & specialist team consists of over 75 glass processing engineers all working within the ISO9001-2008 quality standard. In addition to this MI Glass are proud to have achieved BSI Kitemark™ accreditation for our toughened safety glass.
+      Driven by a commitment to innovation and excellence, we have made significant investments in
+      state-of-the-art machinery, including a hi-tech furnace, double glazing line, laminating glass
+      production line, and edging machines. Our extensive capabilities also include owning the largest
+      toughening furnace in West Africa, enabling us to produce toughened glass in sizes up to
+      2440mm x 3600mm.
       </Text>
       <Text>
-      Our main factory in Downing Street, Birmingham offers 55,000 sq ft of dedicated manufacturing space featuring state of the art machinery including CNC processing, In-House Toughening, Water Jet Cutting and Printing.
-      </Text>
-      <Text>
-      Our recently opened second factory in Booth Street, Birmingham offer a further 25,000 sq ft of dedicated cutting, laminating and warehousing space to support the further expansion of the business.
-      </Text>
-      <Text>
-      Our location on the outskirts of Birmingham offers easy access to all the major motorways and transport routes enables us to offer a Nationwide delivery service.
+      Our success is attributed to our highly skilled personnel who bring their expertise and passion
+      to every project. By fostering close partnerships and synergies with top foreign companies, we
+      have positioned ourselves as a trusted partner for notable government and private
+      organizations in Nigeria.
       </Text>
      </MidSection>
 

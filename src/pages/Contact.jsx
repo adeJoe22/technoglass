@@ -123,7 +123,7 @@ gap: 10px;
 margin: 7px 0
 `
 const Text = styled.p`
-  line-height: 1;
+  line-height: 1.8;
 `
 
 const Phone = styled(BiSolidPhone)`
