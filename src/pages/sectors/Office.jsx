@@ -48,7 +48,7 @@ export default function Office() {
     Header="Reflecting our customers need."
     text="Friendly, competitive & service driven"
     button1Text="Click here"
-    button2Text="Click me"
+    button2Text="Call 07065193654"
     />
 
     <Footer />
