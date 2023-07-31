@@ -15,26 +15,22 @@ export default function Products() {
 
     <MidSection>
         <Text>
-        In addition to offering the full range of Pilkington MirroView™ Digital Display glass we are now an approved Pilkington Mirropane™ Chrome Toughenable Mirror processor
+        Techno Glass have working partnerships with all the major flat glass manufacturers and therefore can offer products from all raw material types including:
         </Text>
 
         <Text>
-        MiGlass have working partnerships with all the major flat glass manufacturers and therefore can offer products from all raw material types including:
+         
         </Text>
 
         <UnorderedList>
           <OrderedList>Clear Float 1.6mm – 19mm</OrderedList>
-          <OrderedList>Low Iron 4mm – 19mm</OrderedList>
-          <OrderedList>Body tints Green/Grey/Bronze 3mm – 10mm</OrderedList>
-          <OrderedList>Clear Mirror 3mm – 6mm</OrderedList>
-          <OrderedList>Bronze, Grey or Antique Mirror 3mm – 6mm</OrderedList>
-          <OrderedList>Anti-Reflective Coatings</OrderedList>
-          <OrderedList>Di-Electric Mirror</OrderedList>
-          <OrderedList>Painted Glass All Colours 4mm – 6mm</OrderedList>
-          <OrderedList>Toughened Painted Glass All Colours 4mm – 10mm</OrderedList>
-          <OrderedList>Laminated Including Acoustic, Decorative and Coloured Interlayers</OrderedList>
-          <OrderedList>Patterned Glass</OrderedList>
-          <OrderedList>Satinised Glass Including Non-Slip</OrderedList>
+          <OrderedList>Low Iron 8-12mm</OrderedList>
+          <OrderedList>Tinted Glass bronze, dark grey, crystal blue, lake blue, blue, euro grey, green</OrderedList>
+          <OrderedList>Reflective glass - bronze, grey, dark grey, blue, euro grey, lake blue</OrderedList>
+          <OrderedList>Mirror 5-12mm</OrderedList>
+          <OrderedList>Toughened glass</OrderedList>
+          <OrderedList>Laminated glass - produced according to customer specs</OrderedList>
+          <OrderedList>Double Glazing - produced according to customer specs</OrderedList>
         </UnorderedList>
     </MidSection>
 
