@@ -40,4 +40,8 @@ const Text = styled.h1`
   font-weight: 600;
   padding-left: 20px;
   padding-right: 20px;
+  @media (max-width: 425px) {
+    font-size: 2.5rem;
+    line-height: 1;
+  }
 `;

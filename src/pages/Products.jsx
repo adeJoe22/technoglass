@@ -64,6 +64,6 @@ const UnorderedList = styled.ul`
 padding-left: 18px;
 `
 const OrderedList = styled.li`
-
+  font-size: 14px;
 `
 

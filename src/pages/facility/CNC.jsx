@@ -10,7 +10,7 @@ export default function CNC() {
     <CNCWrapper>
          <InnerHero
           backgroundImage={FacilityGlass}
-          text="CNC"  
+          text="CNC Cutting table"  
      />
 
      <MidSection>

@@ -10,7 +10,7 @@ export default function Waterjet() {
     <WaterjetWrapper>
          <InnerHero
           backgroundImage={FacilityGlass}
-          text="Waterjet"  
+          text="Waterjet / CNC Processing"  
      />
 
      <MidSection>

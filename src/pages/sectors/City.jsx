@@ -94,5 +94,5 @@ const UnorderedList = styled.ul`
 padding-left: 15px;
 `
 const OrderedList = styled.li`
-
+  font-size: 14px;
 `

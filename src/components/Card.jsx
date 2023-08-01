@@ -2,7 +2,7 @@ import React from 'react'
 import { styled } from 'styled-components'
 
 const Card = ({Header, text, button1Text, button2Text, onButtonClick }) => {
-  const phoneNumber = '+1234567890'; 
+  const phoneNumber = '+234 703 274 9126'; 
 
   const handleButtonClick = () => {
     window.location.href = `tel:${phoneNumber}`;
@@ -60,11 +60,14 @@ padding: 40px;
 
 const CapitalText = styled.h1`
     color: #fff;
-    font-size: 2.5rem;
+    font-size: 40px;
     text-align: center;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
+    @media (max-width: 425px) {
+      font-size: 28px;
+    }
 `
 const DescText = styled.p`
     color: #fff;
