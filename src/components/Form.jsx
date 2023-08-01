@@ -1,36 +1,58 @@
-import React from 'react';
+import React  from 'react';
+import { useState } from 'react'
 import styled from 'styled-components';
 import Button from '../components/Button'
 
 const YourFormComponent = () => {
-    const handleClick = () => {
-        console.log('Button clicked!');}
+
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  }
+  console.log("Form Data Submitted:", formData);
+    // const handleClick = () => {
+    //     console.log('Button clicked!');}
   return (
     <FormContainer>
+      <FormLine onSubmit={handleSubmit}>
 
         <FormText>
             Get in touch<Span>!</Span>
         </FormText>
       <FormGroup>
         
-        <Input type="text" name="firstName" placeholder='first Name'/>
+        <Input name="firstName" placeholder='first Name' type="text" value={formData.firstName} onChange={handleChange} />
       </FormGroup>
       <FormGroup>
         
-        <Input type="text" name="lastName" placeholder='Last Name'/>
+        <Input type="email" name="lastName" value={formData.lastName} onChange={handleChange} placeholder='Last Name'/>
       </FormGroup>
       <FormGroup>
         
-        <Input type="email" name="email" placeholder='Email'/>
+        <Input type="email" name="email" placeholder='Email' value={formData.email} onChange={handleChange}/>
       </FormGroup>
       <FormGroup>
         
-        <TextArea rows="8" name="message" />
+        <TextArea rows="8" name="message" placeholder='Please type your message' value={formData.message} onChange={handleChange}/>
       </FormGroup>
 
       <FormGroup>
-      <Button onClick={handleClick}>Click</Button>
+      <Button onClick={handleSubmit}>Click</Button>
       </FormGroup>
+
+      </FormLine>
     </FormContainer>
   );
 };
@@ -41,8 +63,8 @@ export default YourFormComponent;
 const FormContainer = styled.div`
   display: flex;
   flex-direction: column;
- 
 `;
+const FormLine = styled.form``
 
 const FormGroup = styled.div`
   display: flex;
