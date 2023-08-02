@@ -20,6 +20,11 @@ import Bottle from '../assets/Bootleplant.png';
 import Jiggle from '../assets/jiggle.svg';
 import Wisehelp from '../assets/wisehelp.svg';
 import Curb from '../assets/resecurb.svg';
+// import ManLogo from '../assets/man_logo.png';
+import Coscharis from '../assets/coscharisLogo.png';
+import DiamondBank from '../assets/DiamondBankNigeria.jpg';
+import Tata from '../assets/TataMotors.png';
+import BplLogo from '../assets/BPL_Logo.png';
 import Symtric from '../assets/symtric.svg';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
@@ -32,19 +37,20 @@ export default function Home() {
   const Products = [
     {
       image: Pex,
-      title: 'Toughened Laminated Glass',
+      title: 'Toughened glass.',
       description: 'Based in a purpose built 55,000 square feet factory',
     },
     {
       image: Pexel,
-      title: 'Wire glass',
-      description: 'Based in a purpose built 55,000 square feet factory',
+      title: 'Laminated Glass',
+      description:
+        'This low-emissivity glass reduce UV heat gain from the sun and reduce noise pollution',
     },
     {
       image: Bottle,
-      title: 'Wire glass',
+      title: 'Insulated Glass',
       description:
-        'Laminated glass technically has the same strength as regular glass but has a plastic interlayer between two panes of 3mm thick glass, holding them together',
+        'Insulated glass contribute to a conducive workspace, optimized energy usage, and productivity in factories and warehouse',
     },
   ];
 
@@ -64,6 +70,18 @@ export default function Home() {
   ];
 
   const Data = [
+    // {
+    //   image: BplLogo,
+    // },
+    // {
+    //   image: DiamondBank,
+    // },
+    // {
+    //   image: Tata,
+    // },
+    // {
+    //   image: Coscharis,
+    // },
     {
       image: Wisehelp,
     },
@@ -71,10 +89,10 @@ export default function Home() {
       image: Curb,
     },
     {
-      image: Symtric,
+      image: Jiggle,
     },
     {
-      image: Jiggle,
+      image: Symtric,
     },
   ];
   return (
@@ -92,22 +110,33 @@ export default function Home() {
           >
             {Glass.map((item, i) => (
               <SwiperSlide>
-                <div style={{ backgroundColor: '#000' }}>
+                <div
+                  style={{
+                    backgroundColor: '#000',
+                    // backgroundImage: `url(${item.image})`,
+                  }}
+                >
                   <Box
                     key={i}
-                    border='3px'
-                    // p='20px'
-                    bgPosition='center'
-                    bgSize='cover'
+                    className='imgContainer'
                     height={['67vh', '100vh']}
-                    alignItems='center'
-                    display='flex'
-                    flexDirection='column'
-                    justifyContent='center'
-                    bgImage={item.image}
-                    opacity='0.8'
-                    // bgGradient='linear - gradient(rgba(0, 0, 0, 0.527), rgba(0,0,0,0.5))'
-                    // bgImage={linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , {item.image}}
+                    style={{
+                      backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(${item.image})`,
+                      backgroundSize: 'cover',
+                      backgroundPosition: 'center',
+                      padding: '20px',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      flexDirection: 'column',
+                    }}
+                    // border='3px'
+                    // bgPosition='center'
+                    // bgSize='cover'
+                    // alignItems='center'
+                    // display='flex'
+                    // flexDirection='column'
+                    // justifyContent='center'
                   >
                     <Box
                       p='10px 15px'
@@ -116,7 +145,6 @@ export default function Home() {
                       alignItems='center'
                     >
                       <Text
-                        // pt='-30px'
                         textAlign='center'
                         fontSize={['22px', '42px']}
                         fontWeight='600'
@@ -169,6 +197,7 @@ export default function Home() {
             <SimpleGrid
               mt='40px'
               spacing='20px'
+              columns={[2, null, 3]}
               minChildWidth='230px'
               direction='row'
               mb='30px'
@@ -180,10 +209,16 @@ export default function Home() {
                   justifyContent='center'
                   alignItems='center'
                   borderRadius='6px'
-                  bg='#BFD0CD'
+                  bg='#FFF'
+                  p='2px'
+                  boxShadow='2px 3px 5px 0px rgba(0,0,0,0.75)'
                   key={i}
                 >
-                  <Image src={item.image} alt='' />
+                  <Image
+                    src={item.image}
+                    width={['90%', '95%', '99%']}
+                    alt=''
+                  />
                 </Box>
               ))}
             </SimpleGrid>
@@ -213,6 +248,9 @@ export default function Home() {
                     p='12px 26px'
                     borderRadius='48px'
                     letterSpacing='3px'
+                    _hover={{
+                      backgroundColor: '#668f86',
+                    }}
                     textTransform='uppercase'
                     variant='outline'
                   >
@@ -244,82 +282,152 @@ export default function Home() {
                   <AccordionButton>
                     <Box as='span' flex='1' textAlign='left'>
                       <Text fontSize='16px' fontWeight='500'>
-                        What industries do you manufacture glass for?
+                        What types of Glass do you manufacture?
                       </Text>
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </AccordionPanel>
-              </AccordionItem>
-
-              <AccordionItem>
-                <h2>
-                  <AccordionButton>
-                    <Box as='span' flex='1' textAlign='left'>
-                      What uses do you manufacture glass for?
-                    </Box>
-                    <AccordionIcon />
-                  </AccordionButton>
-                </h2>
-                <AccordionPanel pb={4}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  Technoglass Industries Limited specializes in the
+                  manufacturing and processing of glass products, including
+                  safety and security glass, decorative laminated glass,
+                  windows, doors, curtain walls, and other architectural glass
+                  solutions
                 </AccordionPanel>
               </AccordionItem>
               <AccordionItem>
                 <h2>
                   <AccordionButton>
                     <Box as='span' flex='1' textAlign='left'>
-                      What types of Glass do you manufacture?
+                      <Text fontSize='16px' fontWeight='500'>
+                        What is safety glass, and why is it essential?
+                      </Text>
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  Safety glass is a type of glass that undergoes a heat
+                  treatment process, such as toughening or tempering, to
+                  increase its strength and safety properties. It is essential
+                  because, in the event of breakage, safety glass crumbles into
+                  small, granular pieces instead of sharp shards, minimizing the
+                  risk of injury.
                 </AccordionPanel>
               </AccordionItem>
               <AccordionItem>
                 <h2>
                   <AccordionButton>
                     <Box as='span' flex='1' textAlign='left'>
-                      What stages of glass manufacturing does MiGlass perform?
+                      <Text fontSize='16px' fontWeight='500'>
+                        Is Technoglass glass compliant with local and
+                        international standards?
+                      </Text>
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  Yes, all Technoglass products are manufactured to meet the
+                  highest quality standards and comply with both local and
+                  international regulations.
                 </AccordionPanel>
               </AccordionItem>
               <AccordionItem>
                 <h2>
                   <AccordionButton>
                     <Box as='span' flex='1' textAlign='left'>
-                      What uses do you manufacture glass for?
+                      <Text fontSize='16px' fontWeight='500'>
+                        Can Technoglass Industries Limited provide custom glass
+                        solutions?
+                      </Text>
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  Yes, Technoglass Industries Limited offers custom glass
+                  solutions tailored to meet specific requirements. Whether it's
+                  a unique size, shape, color, or design, our team can work
+                  closely with clients to deliver personalized glass products.
+                </AccordionPanel>
+              </AccordionItem>
+              <AccordionItem>
+                <h2>
+                  <AccordionButton>
+                    <Box as='span' flex='1' textAlign='left'>
+                      <Text fontSize='16px' fontWeight='500'>
+                        Does Technoglass Industries Limited offer installation
+                        services?
+                      </Text>
+                    </Box>
+                    <AccordionIcon />
+                  </AccordionButton>
+                </h2>
+                <AccordionPanel pb={4}>
+                  Yes, Technoglass Industries Limited offers professional
+                  installation services for its glass products. Our skilled team
+                  of Installers ensures that the glass is installed with
+                  precision and adherence to industry standards.
+                </AccordionPanel>
+              </AccordionItem>
+              <AccordionItem>
+                <h2>
+                  <AccordionButton>
+                    <Box as='span' flex='1' textAlign='left'>
+                      <Text fontSize='16px' fontWeight='500'>
+                        What are the advantages of using toughened glass?
+                      </Text>
+                    </Box>
+                    <AccordionIcon />
+                  </AccordionButton>
+                </h2>
+                <AccordionPanel pb={4}>
+                  Toughened glass offers several advantages, including increased
+                  strength, resistance to thermal stress, improved safety, and
+                  compliance with safety glazing regulations. It is ideal for
+                  applications where safety, durability, and resistance to
+                  breakage are critical.
+                </AccordionPanel>
+              </AccordionItem>
+              <AccordionItem>
+                <h2>
+                  <AccordionButton>
+                    <Box as='span' flex='1' textAlign='left'>
+                      <Text fontSize='16px' fontWeight='500'>
+                        What is laminated glass, and what are its applications?
+                      </Text>
+                    </Box>
+                    <AccordionIcon />
+                  </AccordionButton>
+                </h2>
+                <AccordionPanel pb={4}>
+                  Laminated glass consists of two or more layers of glass bonded
+                  together with an interlayer, typically made of polyvinyl
+                  butyral (PVB). This process creates a strong and durable glass
+                  that remains intact even if shattered. Laminated glass is
+                  commonly used in windows, doors, skylights, glass floors, and
+                  areas where safety and security are paramount.
+                </AccordionPanel>
+              </AccordionItem>
+              <AccordionItem>
+                <h2>
+                  <AccordionButton>
+                    <Box as='span' flex='1' textAlign='left'>
+                      <Text fontSize='16px' fontWeight='500'>
+                        How can I request a quote or get more information about
+                        Technoglass products?
+                      </Text>
+                    </Box>
+                    <AccordionIcon />
+                  </AccordionButton>
+                </h2>
+                <AccordionPanel pb={4}>
+                  To request a quote or obtain more information about our
+                  products and services, you can contact our sales team directly
+                  through phone or email. You can also visit our website for
+                  more details and to explore our product catalog.
                 </AccordionPanel>
               </AccordionItem>
             </Accordion>
@@ -349,6 +457,8 @@ export default function Home() {
                   <Image
                     pointer='cursor'
                     width='100%'
+                    maxWidth='800px'
+                    height='260px'
                     src={item.image}
                     alt=''
                   />

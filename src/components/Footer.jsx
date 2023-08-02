@@ -144,16 +144,16 @@ function Footer() {
             maxWidth='220px'
             width='100%'
           >
-            <Box>
+            <Box cursor='pointer'>
               <FaFacebookSquare size={24} />
             </Box>
-            <Box>
+            <Box cursor='pointer'>
               <FaInstagram size={24} />
             </Box>
-            <Box>
+            <Box cursor='pointer'>
               <FaTwitterSquare size={24} />
             </Box>
-            <Box>
+            <Box cursor='pointer'>
               <FaLinkedin size={24} />
             </Box>
           </Box>

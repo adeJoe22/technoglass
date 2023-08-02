@@ -11,23 +11,22 @@ export default function Profile() {
       <InnerHero backgroundImage={Background} text='Company Profile' />
       <Box maxWidth='1280px' margin='0 auto' px='25px' py='30px'>
         <Text mt='10px' fontWeight='400' fontSize='16px'>
-          MiGlass is one of the largest independent glass processors and Glass
-          Manufacturers in Europe providing a turnkey solution for all flat
-          glass processing needs & specialising in decorative glass products for
-          all markets.{' '}
+          Technoglass Industries Limited was established in 2004 as a response
+          to the growing demand for indigenous safety glass manyfactureing, and
+          since then we have become a leading provider of cutting-edge
+          architectural and structural glass solution
         </Text>
         <Text mt='10px' fontWeight='400' fontSize='16px'>
           Our 24/7 facility provides a competitive supply from bespoke one off
           to high volume requirements offering an unrivalled production, quality
-          & delivery service – right here in the UK.
+          & delivery service – right here in the Nigeria.
         </Text>
         <Text mt='10px' fontWeight='400' fontSize='16px'>
-          We are proud to be an owner managed company with over 80 years of
-          glass expertise. During this time we have had the honour of supplying
-          many prestigious and award winning projects from luxury commercial
-          developments to higher education facilities. We offer both experience
-          & innovation in flat glass processing and offer a reliable and
-          dedicated supply chain partner.
+          During this time we have had the honour of supplying many prestigious
+          and award winning projects from luxury commercial developments to
+          higher education facilities. We offer both experience & innovation in
+          flat glass processing and offer a reliable and dedicated supply chain
+          partner.
         </Text>
       </Box>
       {/* <Box maxWidth='1280px' p='25px' margin='0 auto'>
