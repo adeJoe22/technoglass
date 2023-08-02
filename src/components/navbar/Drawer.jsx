@@ -1,20 +1,21 @@
-import React from 'react'
+import React from "react";
 import styled from "styled-components";
-import { Link } from "react-router-dom"
-import Dropdown from './Dropdown';
+import { Link } from "react-router-dom";
+import ExpandMenu from "./ExpandMenu";
 
 
-export default function Drawer({ isOpen, toggleDrawer, links }) {
+
+const Drawer = ({ isOpen, toggleDrawer, links }) => {
   return (
     <>
-     {isOpen && <Backdrop onClick={toggleDrawer} />}
+      {isOpen && <Backdrop onClick={toggleDrawer} />}
       <SDrawer isOpen={isOpen}>
         <RightNav>
-          <SNavbarBrand>LOGO</SNavbarBrand>
+        
           <NavRoutes>
             {links.map((link) => {
-              if (link.sublinks) {
-                return <Dropdown link={link}  key={link.id} />;
+              if (link.subLinks) {
+                return <ExpandMenu link={link} key={link.id} />;
               }
               return (
                 <NavRoute
@@ -30,8 +31,10 @@ export default function Drawer({ isOpen, toggleDrawer, links }) {
         </RightNav>
       </SDrawer>
     </>
-  )
-}
+  );
+};
+
+export default Drawer;
 
 const Backdrop = styled.div`
   height: 100%;
@@ -44,21 +47,13 @@ const Backdrop = styled.div`
 
   background-color: transparent;
 `;
-
-const SNavbarBrand = styled.p`
-  font-size: 14px;
-`;
 const SDrawer = styled.div`
   z-index: 150;
   position: absolute;
   top: 0;
-  height: 100%;
-  width: 70%;
-  background: rgba(0, 0, 0, 0.3);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(0, 0, 0, 0.3);
+  min-height: 100vh;
+  width: 75%;
+  background-color: #00221bc8;
   transition: 0.3s ease;
 
   transform: translateX(${(props) => (props.isOpen ? "0" : "-100%")});
@@ -69,15 +64,16 @@ const RightNav = styled.div`
   flex-direction: column;
   gap: 2rem;
   padding: 1rem;
-  /* background-color: red; */
 `;
-const NavRoutes = styled.div``;
+const NavRoutes = styled.div` 
+color: #ffffff;
+
+`;
 const NavRoute = styled(Link)`
   display: flex;
   text-decoration: none;
   color: #ffffff;
-  font-size: 14px;
-  padding: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 0.5rem;
 `;
-
-
