@@ -27,7 +27,7 @@ import Tata from '../assets/TataMotors.png';
 import BplLogo from '../assets/BPL_Logo.png';
 import Symtric from '../assets/symtric.svg';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation } from 'swiper/modules';
+import { Navigation, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import '../styles/homeStyles.scss';
@@ -101,10 +101,14 @@ export default function Home() {
         <Box>
           <Swiper
             navigation={true}
-            modules={[Navigation]}
+            modules={[Navigation, Autoplay]}
             style={{
               '--swiper-pagination-color': '#fff',
               '--swiper-navigation-color': '#fff',
+            }}
+            // speed={100}
+            autoplay={{
+              delay: 2000,
             }}
             className='mySwiper'
           >
