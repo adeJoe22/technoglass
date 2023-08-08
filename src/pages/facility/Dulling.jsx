@@ -15,25 +15,12 @@ export default function Dullling() {
 
      <MidSection>
       <Text>
-      Our team of dedicated staff members, operating in a working area of 3500m2, is committed
-      to deliver high-performance products in every aspect of our business.
-      Technoglass is the symbol of courage and independence. TGI continues to be first with
-      significant advances translating into high-value-added materials that help create uniquely
-      better products in every application.
+      Dulling, a specialized glass treatment offered by Technoglass, involves the careful alteration of glass surfaces to achieve a frosted or matte appearance. This process enhances privacy and diffuses light while maintaining a sense of elegance and sophistication. Whether applied to windows, doors, or interior partitions, the dulling technique strikes a balance between aesthetics and functionality, allowing natural light to filter through while creating a sense of intimacy within spaces.
       </Text>
       <Text>
-      Driven by a commitment to innovation and excellence, we have made significant investments in
-      state-of-the-art machinery, including a hi-tech furnace, double glazing line, laminating glass
-      production line, and edging machines. Our extensive capabilities also include owning the largest
-      toughening furnace in West Africa, enabling us to produce toughened glass in sizes up to
-      2440mm x 3600mm.
+      At Technoglass, our skilled artisans utilize advanced techniques and cutting-edge equipment to achieve consistent and precise dulling effects on glass surfaces. The resulting semi-opaque finish not only adds a touch of modernity to interiors but also serves as an innovative solution for spaces where privacy and light diffusion are paramount. From residential to commercial applications, our dulling process transforms standard glass into a versatile design element that elevates both the visual appeal and functionality of various environments.
       </Text>
-      <Text>
-      Our success is attributed to our highly skilled personnel who bring their expertise and passion
-      to every project. By fostering close partnerships and synergies with top foreign companies, we
-      have positioned ourselves as a trusted partner for notable government and private
-      organizations in Nigeria.
-      </Text>
+      
      </MidSection>
 
      <Card

@@ -26,8 +26,8 @@ export default function TopBar() {
       </InfoWrap>
       
       <Social>
-        <div><FaFacebookSquare/></div>
-        <div><FaInstagram/></div>
+        <div><a href='' target='_blank'><FaFacebookSquare/></a></div>
+        <div><a href='https://www.instagram.com/' target='_blank'><FaInstagram/></a></div>
         <div><FaLinkedin/></div>
         <div><FaTwitterSquare/></div>
 

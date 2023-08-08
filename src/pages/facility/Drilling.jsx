@@ -15,24 +15,13 @@ export default function Drilling() {
 
      <MidSection>
       <Text>
-      Our team of dedicated staff members, operating in a working area of 3500m2, is committed
-      to deliver high-performance products in every aspect of our business.
-      Technoglass is the symbol of courage and independence. TGI continues to be first with
-      significant advances translating into high-value-added materials that help create uniquely
-      better products in every application.
+      Drilling is a crucial step in our glass manufacturing process at Technoglass. We employ cutting-edge drilling techniques to create precise holes in the glass, which are essential for various applications. Our advanced methods ensure that the drilling process is carried out without causing any damage to the glass material, maintaining its structural integrity and aesthetic appeal.
       </Text>
       <Text>
-      Driven by a commitment to innovation and excellence, we have made significant investments in
-      state-of-the-art machinery, including a hi-tech furnace, double glazing line, laminating glass
-      production line, and edging machines. Our extensive capabilities also include owning the largest
-      toughening furnace in West Africa, enabling us to produce toughened glass in sizes up to
-      2440mm x 3600mm.
+      The drilling process in glass manufacturing opens up a world of possibilities in terms of fixing options while preserving the panel's structural and aesthetic functions. Technoglass is proud to house Nigeria's first fully integrated vertical CNC and Drilling line, setting us apart in terms of quality, efficiency, and accuracy. This is particularly beneficial for balustrade companies seeking unmatched precision.
       </Text>
       <Text>
-      Our success is attributed to our highly skilled personnel who bring their expertise and passion
-      to every project. By fostering close partnerships and synergies with top foreign companies, we
-      have positioned ourselves as a trusted partner for notable government and private
-      organizations in Nigeria.
+      Our capabilities extend to drilling multiple hole sizes and countersinking to accommodate a wide range of fixtures and fittings. We also offer drilled mirrors with CNC edge working and a comprehensive selection of safety or adhesion films. These additional features ensure the safety and performance of our finished products, further solidifying Technoglass's position as a leader in the glass manufacturing industry.
       </Text>
      </MidSection>
 

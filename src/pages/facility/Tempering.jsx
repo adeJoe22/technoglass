@@ -15,24 +15,13 @@ export default function Tempering() {
 
      <MidSection>
       <Text>
-      Our team of dedicated staff members, operating in a working area of 3500m2, is committed
-      to deliver high-performance products in every aspect of our business.
-      Technoglass is the symbol of courage and independence. TGI continues to be first with
-      significant advances translating into high-value-added materials that help create uniquely
-      better products in every application.
+      Tempering is a critical procedure in our production line at Technoglass, enhancing the durability and safety of our glass products. Our state-of-the-art tempering furnace machine facilitates this process, ensuring that the glass is tempered to the highest standards. This process results in a product that is significantly stronger and safer than regular glass.
       </Text>
       <Text>
-      Driven by a commitment to innovation and excellence, we have made significant investments in
-      state-of-the-art machinery, including a hi-tech furnace, double glazing line, laminating glass
-      production line, and edging machines. Our extensive capabilities also include owning the largest
-      toughening furnace in West Africa, enabling us to produce toughened glass in sizes up to
-      2440mm x 3600mm.
+      In addition to enhancing the strength of our glass, the tempering process also changes the way the glass breaks. Instead of shattering into sharp, dangerous shards, tempered glass fractures into small, relatively harmless pieces. This characteristic makes it an ideal choice for applications where safety is paramount. 
       </Text>
       <Text>
-      Our success is attributed to our highly skilled personnel who bring their expertise and passion
-      to every project. By fostering close partnerships and synergies with top foreign companies, we
-      have positioned ourselves as a trusted partner for notable government and private
-      organizations in Nigeria.
+      Furthermore, tempered glass exhibits superior resistance to thermal stress and impact, making it suitable for a wide range of applications, from architectural glazing to automotive windows. At Technoglass, we continuously strive to leverage advanced processes like tempering to deliver high-quality, safe, and durable glass products to our clients.
       </Text>
      </MidSection>
 

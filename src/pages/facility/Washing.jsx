@@ -15,25 +15,12 @@ export default function Washing() {
 
      <MidSection>
       <Text>
-      Our team of dedicated staff members, operating in a working area of 3500m2, is committed
-      to deliver high-performance products in every aspect of our business.
-      Technoglass is the symbol of courage and independence. TGI continues to be first with
-      significant advances translating into high-value-added materials that help create uniquely
-      better products in every application.
+      With a rich legacy spanning over 75 years, Technoglass is a trailblazer in advanced glass washing technology. Our washers are designed for easy maintenance, reliability, and enduring performance, setting a benchmark with an unmatched lifespan. These washers are the cornerstone of many production lines.
       </Text>
       <Text>
-      Driven by a commitment to innovation and excellence, we have made significant investments in
-      state-of-the-art machinery, including a hi-tech furnace, double glazing line, laminating glass
-      production line, and edging machines. Our extensive capabilities also include owning the largest
-      toughening furnace in West Africa, enabling us to produce toughened glass in sizes up to
-      2440mm x 3600mm.
+      Technoglass provides solutions for intricate cleaning demands, including ultrasonic requirements, and meets the rigorous demands of round-the-clock operations. Our cutting-edge washing technology adapts to diverse needs, ensuring efficiency and precision. As an industry leader, Technoglass empowers partners' success with innovative solutions.
       </Text>
-      <Text>
-      Our success is attributed to our highly skilled personnel who bring their expertise and passion
-      to every project. By fostering close partnerships and synergies with top foreign companies, we
-      have positioned ourselves as a trusted partner for notable government and private
-      organizations in Nigeria.
-      </Text>
+      
      </MidSection>
 
      <Card
