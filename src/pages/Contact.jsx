@@ -127,13 +127,13 @@ const Text = styled.p`
 `
 
 const Phone = styled(BiSolidPhone)`
-color: green;
+color: #00221b;
 `
 const Message = styled(BiMessageRounded)`
-color: green;
+color: #00221b;
 `
 const Address = styled(FaMapMarkerAlt)`
-color: green;
+color: #00221b;
 `
 const Icon = styled.div``
 const PhoneHead = styled.h3`
