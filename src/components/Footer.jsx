@@ -111,7 +111,7 @@ function Footer() {
                 lineHeight='30px'
               >
                 Plot C62, Crystal Glass Close, Amowo Odofin Industrial Estate,
-                Off Oshodi Apapa Expressway, Festac Town.
+                Off Oshodi Apapa Expressway, Lagos, Nigeria.
               </Text>
             </Box>
           </Box>
