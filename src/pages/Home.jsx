@@ -13,19 +13,17 @@ import {
 } from '@chakra-ui/react';
 import GlassImage from '../assets/blurredGlass.jpg';
 import GlassImage2 from '../assets/toughenedGlass.jpg';
-import GlassImage3 from '../assets/BP.jpg';
+import GlassImage3 from '../assets/OceanParade.svg';
 import Pexel from '../assets/pexels.jpg';
 import Pex from '../assets/pexelsdaniel460.png';
 import Bottle from '../assets/Bootleplant.png';
-import Jiggle from '../assets/jiggle.svg';
-import Wisehelp from '../assets/wisehelp.svg';
-import Curb from '../assets/resecurb.svg';
-// import ManLogo from '../assets/man_logo.png';
-import Coscharis from '../assets/coscharisLogo.png';
-import DiamondBank from '../assets/DiamondBankNigeria.jpg';
-import Tata from '../assets/TataMotors.png';
-import BplLogo from '../assets/BPL_Logo.png';
-import Symtric from '../assets/symtric.svg';
+import Wisehelp from '../assets/Icon8.svg';
+import Curb from '../assets/Icon1.svg';
+import Coscharis from '../assets/Icon2.svg';
+import DiamondBank from '../assets/Icon3.svg';
+import Tata from '../assets/Icon4.svg';
+import Symtric from '../assets/Icon7.svg';
+import Move from '../assets/Icon9.svg';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay } from 'swiper/modules';
 import 'swiper/css';
@@ -70,29 +68,26 @@ export default function Home() {
   ];
 
   const Data = [
-    // {
-    //   image: BplLogo,
-    // },
-    // {
-    //   image: DiamondBank,
-    // },
-    // {
-    //   image: Tata,
-    // },
-    // {
-    //   image: Coscharis,
-    // },
-    {
-      image: Wisehelp,
-    },
     {
       image: Curb,
     },
     {
-      image: Jiggle,
+      image: Coscharis,
+    },
+    {
+      image: Tata,
+    },
+    {
+      image: DiamondBank,
+    },
+    {
+      image: Wisehelp,
     },
     {
       image: Symtric,
+    },
+    {
+      image: Move,
     },
   ];
   return (
@@ -117,7 +112,6 @@ export default function Home() {
                 <div
                   style={{
                     backgroundColor: '#000',
-                    // backgroundImage: `url(${item.image})`,
                   }}
                 >
                   <Box
@@ -188,22 +182,29 @@ export default function Home() {
         <Box
           display='flex'
           flexDirection='column'
-          p={['15px 20px']}
+          p={['15px 10px']}
           pb={['80px', '0px']}
           justifyContent='center'
+          margin='0 auto'
+          maxWidth='1280px'
         >
           <Box py='25px' margin='0 auto'>
-            <Text fontWeight='700' fontSize={['42px', '48px']}>
-              Market Sector
+            <Text
+              fontWeight='700'
+              textTransform='uppercase'
+              fontSize={['42px', '48px']}
+              color='#B7CC33'
+            >
+              Trusted By
             </Text>
           </Box>
-          <Box px='35px' mb='30px' height={[null, '40vh']} py='30px'>
+          <Box px='35px' mb='30px' py='30px'>
             <SimpleGrid
               mt='40px'
-              spacing='20px'
-              columns={[2, null, 3]}
-              minChildWidth='230px'
-              direction='row'
+              spacing='40px'
+              // columns={[2, null, 3]}
+              minChildWidth='240px'
+              // direction='row'
               mb='30px'
             >
               {Data.map((item, i) => (
@@ -214,13 +215,14 @@ export default function Home() {
                   alignItems='center'
                   borderRadius='6px'
                   bg='#FFF'
-                  p='2px'
+                  p='25px'
                   boxShadow='2px 3px 5px 0px rgba(0,0,0,0.75)'
                   key={i}
                 >
                   <Image
                     src={item.image}
                     width={['90%', '95%', '99%']}
+                    height='100%'
                     alt=''
                   />
                 </Box>
