@@ -6,7 +6,7 @@ import Products from '../pages/Products'
 import Profile from "../pages/about/Profile"
 import QualityAndStandard from "../pages/about/QualityAndStandard"
 import City from "../pages/sectors/City"
-import HomeSector from "../pages/sectors/Home_Sector"
+import Residential from "../pages/sectors/Residential"
 import Leisure from "../pages/sectors/Leisure"
 import Office from "../pages/sectors/Office"
 import Retail from "../pages/sectors/Retail"
@@ -91,7 +91,7 @@ const router = createBrowserRouter([
           },
           {
             path: "home",
-            element: <HomeSector/>
+            element: <Residential/>
           },
           {
             path: "leisure",

@@ -21,7 +21,7 @@ export const links = [
       { id: 41, label: 'Office', path: '/sectors/office' },
       { id: 42, label: 'City', path: '/sectors/city' },
       { id: 43, label: 'Retail', path: '/sectors/retail' },
-      { id: 44, label: 'Home', path: '/sectors/home' },
+      { id: 44, label: 'Residential', path: '/sectors/home' },
       { id: 45, label: 'Leisure', path: '/sectors/leisure' },
       { id: 46, label: 'Transport', path: '/sectors/transport' },
       { id: 47, label: 'World', path: '/sectors/world' },

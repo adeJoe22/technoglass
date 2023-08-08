@@ -24,23 +24,13 @@ export default function Office() {
 
       <Right>
         <Text>
-        Creating Inspirational workspace environments requires an inspirational supply partner. Our extensive experience in decorative glass provides our clients with a wealth of opportunity to create truly stunning interior spaces. From high quality, painted glass products to specialist laminates incorporating decorative fabrics, Mi Glass can bring any project to vivid life.
+        Creating exceptional workspace environments necessitates an equally exceptional supply partner. At Technoglass, our vast experience in decorative glass offers our clients a plethora of opportunities to craft truly remarkable interior spaces. From top-tier, colored glass products to specialized laminates that incorporate decorative fabrics, Technoglass has the capability to bring any project to vibrant fruition.
         </Text>
 
         <Text>
-        Our manufacturing capabilities include state of the art vertical and horizontal CNC processing, in-house laminating and screen printing. Mi Glass can also offer digital printing which combines the durability of glass with the latest in hi-resolution print technology to create vibrant images providing the perfect backdrop for any commercial environment.
+        Our manufacturing competencies encompass state-of-the-art vertical and horizontal CNC processing, in-house laminating, and screen printing. Technoglass also offers digital printing, merging the resilience of glass with the latest high-resolution print technology to produce vivid images. These images serve as the ideal backdrop for any commercial setting.
         </Text>
 
-        <Text>
-          Our services include:
-          <UnorderedList>
-          <OrderedList>Clear Float 1.6mm – 19mm</OrderedList>
-          <OrderedList>Clear Float 1.6mm – 19mm</OrderedList>
-          <OrderedList>Clear Float 1.6mm – 19mm</OrderedList>
-          <OrderedList>Clear Float 1.6mm – 19mm</OrderedList>
-          
-        </UnorderedList>
-        </Text>
       </Right>
      </MidSection>
 
@@ -90,9 +80,9 @@ const ImageContainer = styled.div`
 const Image = styled.img`
   
 `
-const UnorderedList = styled.ul`
-padding-left: 15px;
-`
-const OrderedList = styled.li`
-font-size: 14px;
-`
+// const UnorderedList = styled.ul`
+// padding-left: 15px;
+// `
+// const OrderedList = styled.li`
+// font-size: 14px;
+// `

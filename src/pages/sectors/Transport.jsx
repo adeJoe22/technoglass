@@ -24,22 +24,15 @@ export default function Transport() {
 
       <Right>
         <Text>
-        Creating Inspirational workspace environments requires an inspirational supply partner. Our extensive experience in decorative glass provides our clients with a wealth of opportunity to create truly stunning interior spaces. From high quality, painted glass products to specialist laminates incorporating decorative fabrics, Mi Glass can bring any project to vivid life.
+        As the leading authority in advanced glass processing in Nigeria and the West African sub-region, Technoglass is committed to delivering transportation glass products that meet and exceed both local and international standards. Our products proudly bear the NIS Mark of Quality, a testament to our adherence to stringent quality measures.
         </Text>
 
         <Text>
-        Our manufacturing capabilities include state of the art vertical and horizontal CNC processing, in-house laminating and screen printing. Mi Glass can also offer digital printing which combines the durability of glass with the latest in hi-resolution print technology to create vibrant images providing the perfect backdrop for any commercial environment.
+        Technoglass is equipped to provide glass solutions for the transportation sector that comply with many globally recognized quality and safety standards, including ECE Regulation 43. Our experience has underscored the importance of innovation, quality, and value to suppliers of construction and agricultural machinery.
         </Text>
 
         <Text>
-          Our services include:
-          <UnorderedList>
-          <OrderedList>Clear Float 1.6mm – 19mm</OrderedList>
-          <OrderedList>Clear Float 1.6mm – 19mm</OrderedList>
-          <OrderedList>Clear Float 1.6mm – 19mm</OrderedList>
-          <OrderedList>Clear Float 1.6mm – 19mm</OrderedList>
-          
-        </UnorderedList>
+        Our investment in state-of-the-art technology, coupled with our unwavering commitment to effective quality management, enables us to offer a diverse range of glass solutions for the transportation industry. At Technoglass, we are dedicated to driving the future of transportation with our high-quality, durable, and safe glass products.
         </Text>
       </Right>
      </MidSection>
@@ -90,9 +83,9 @@ const ImageContainer = styled.div`
 const Image = styled.img`
   
 `
-const UnorderedList = styled.ul`
-padding-left: 15px;
-`
-const OrderedList = styled.li`
-  font-size: 14px;
-`
+// const UnorderedList = styled.ul`
+// padding-left: 15px;
+// `
+// const OrderedList = styled.li`
+//   font-size: 14px;
+// `

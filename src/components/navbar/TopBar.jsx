@@ -17,8 +17,7 @@ export default function TopBar() {
           <div>+234-703 274 9126</div>          
         </PhoneNo>
         <Address>
-
-        <div>Plot C62, Crystal Glass Close, Amowo Odofin Industrial Estate, Off Oshodi Apapa Expressway, Festac Town.</div>
+        <div>Plot C62, Crystal Glass Close, Amowo Odofin Industrial Estate, Off Oshodi Apapa Expressway, Lagos, Nigeria.</div>
       </Address>
       <Email>
         <AiOutlineMail/>

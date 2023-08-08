@@ -24,22 +24,15 @@ export default function City() {
 
       <Right>
         <Text>
-        Creating Inspirational workspace environments requires an inspirational supply partner. Our extensive experience in decorative glass provides our clients with a wealth of opportunity to create truly stunning interior spaces. From high quality, painted glass products to specialist laminates incorporating decorative fabrics, Mi Glass can bring any project to vivid life.
+        Urban landscapes offer an ideal platform to showcase the elegance and resilience of glass. Whether commuting daily or exploring some of the world's most renowned cities, there's a high probability you've encountered or interacted with a Technoglass product.
         </Text>
 
         <Text>
-        Our manufacturing capabilities include state of the art vertical and horizontal CNC processing, in-house laminating and screen printing. Mi Glass can also offer digital printing which combines the durability of glass with the latest in hi-resolution print technology to create vibrant images providing the perfect backdrop for any commercial environment.
+        Our expertise in glass processing has led to the development of inventive solutions in the realm of street furniture, including digital signage, public transport information systems, and glass for bus shelters. Our in-house capabilities encompass ceramic printing, which is perfectly suited for street lighting applications.
         </Text>
 
         <Text>
-          Our services include:
-          <UnorderedList>
-          <OrderedList>Clear Float 1.6mm – 19mm</OrderedList>
-          <OrderedList>Clear Float 1.6mm – 19mm</OrderedList>
-          <OrderedList>Clear Float 1.6mm – 19mm</OrderedList>
-          <OrderedList>Clear Float 1.6mm – 19mm</OrderedList>
-          
-        </UnorderedList>
+        Technoglass has collaborated with some of the world's leading outdoor advertising agencies to craft unique glass products that captivate millions. We have experience with products that employ the latest Anti-Reflective and Dielectric coatings to ensure an unobstructed connection between you and your customers.
         </Text>
       </Right>
      </MidSection>
@@ -90,9 +83,9 @@ const ImageContainer = styled.div`
 const Image = styled.img`
   
 `
-const UnorderedList = styled.ul`
-padding-left: 15px;
-`
-const OrderedList = styled.li`
-  font-size: 14px;
-`
+// const UnorderedList = styled.ul`
+// padding-left: 15px;
+// `
+// const OrderedList = styled.li`
+//   font-size: 14px;
+// `

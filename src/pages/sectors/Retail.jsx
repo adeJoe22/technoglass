@@ -24,22 +24,18 @@ export default function Retail() {
 
       <Right>
         <Text>
-        Creating Inspirational workspace environments requires an inspirational supply partner. Our extensive experience in decorative glass provides our clients with a wealth of opportunity to create truly stunning interior spaces. From high quality, painted glass products to specialist laminates incorporating decorative fabrics, Mi Glass can bring any project to vivid life.
+        At Technoglass, we are proud of our track record in delivering custom-made glass solutions to some of the most renowned retail brands worldwide. Whether it's a small-scale store makeover or a large international retail overhaul, our expertise and resources are at your disposal. We leverage our extensive experience across various sectors to collaborate with our clients, ensuring we meet project deadlines and stay within budget.
         </Text>
 
         <Text>
-        Our manufacturing capabilities include state of the art vertical and horizontal CNC processing, in-house laminating and screen printing. Mi Glass can also offer digital printing which combines the durability of glass with the latest in hi-resolution print technology to create vibrant images providing the perfect backdrop for any commercial environment.
+        From mass-produced glass shelving to cutting-edge point-of-purchase display solutions, Technoglass provides an all-encompassing answer to your glass needs.
         </Text>
 
         <Text>
-          Our services include:
-          <UnorderedList>
-          <OrderedList>Clear Float 1.6mm – 19mm</OrderedList>
-          <OrderedList>Clear Float 1.6mm – 19mm</OrderedList>
-          <OrderedList>Clear Float 1.6mm – 19mm</OrderedList>
-          <OrderedList>Clear Float 1.6mm – 19mm</OrderedList>
-          
-        </UnorderedList>
+        We are excited to offer an extensive selection of specialized digital display glass, including the latest generation of non-metallic mirrors that are compatible with all touchscreen technologies.
+
+            Furthermore, we also provide a wide selection of anti-reflective glass, perfect for premium display cases.
+
         </Text>
       </Right>
      </MidSection>
@@ -90,9 +86,9 @@ const ImageContainer = styled.div`
 const Image = styled.img`
   
 `
-const UnorderedList = styled.ul`
-padding-left: 15px;
-`
-const OrderedList = styled.li`
-  font-size: 14px;
-`
+// const UnorderedList = styled.ul`
+// padding-left: 15px;
+// `
+// const OrderedList = styled.li`
+//   font-size: 14px;
+// `
