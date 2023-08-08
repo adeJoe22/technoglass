@@ -9,6 +9,11 @@ import {
 } from 'react-icons/fa';
 import {AiOutlineMail} from 'react-icons/ai'
 export default function TopBar() {
+  const emailAddress = 'info@technoglassng.com';
+
+  const handleButtonEmail = () => {
+    window.location.href = `mailto:${emailAddress}`;
+  };
   return (
     <Container>
       <InfoWrap>
@@ -20,16 +25,17 @@ export default function TopBar() {
         <div>Plot C62, Crystal Glass Close, Amowo Odofin Industrial Estate, Off Oshodi Apapa Expressway, Lagos, Nigeria.</div>
       </Address>
       <Email>
-        <AiOutlineMail/>
+        <AiOutlineMail/><a onClick={handleButtonEmail}>
       <div>info@technoglassng.com</div>
+      </a>
       </Email>
       </InfoWrap>
       
       <Social>
         <div><a href='' target='_blank'><FaFacebookSquare/></a></div>
-        <div><a href='https://www.instagram.com/' target='_blank'><FaInstagram/></a></div>
-        <div><FaLinkedin/></div>
-        <div><FaTwitterSquare/></div>
+        <div><a href='https://instagram.com/technoglass.ng?igshid=MzRlODBiNWFlZA==' target='_blank'><FaInstagram/></a></div>
+        <div><a href="linkedin.com" target='_blank'><FaLinkedin/></a></div>
+        <div><a href="https://twitter.com/TechnoglassNG?t=s1kZLlfdfReSwINckbyrgA&s=09" target='_blank'><FaTwitterSquare/></a></div>
 
       </Social>
     </Container>

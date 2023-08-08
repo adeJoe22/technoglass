@@ -14,7 +14,7 @@ const Navbar = ({ toggleDrawer, links }) => {
           <FaBars />
         </DrawerButton>
         <SNavbarBrand>
-          <img src={logo} alt={logo}/>
+          <Link to='/'><img src={logo} alt={logo}/></Link>
         </SNavbarBrand>
         <RightNav>
           <NavRoutes>
