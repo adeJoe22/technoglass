@@ -49,7 +49,7 @@ const YourFormComponent = () => {
       </FormGroup>
 
       <FormGroup>
-      <Button onClick={handleSubmit}>Click</Button>
+      <Button onClick={handleSubmit}>Submit</Button>
       </FormGroup>
 
       </FormLine>
@@ -95,5 +95,5 @@ const FormText = styled.h3`
     margin-bottom: 25px;
 `
 const Span = styled.span`
-color: #0693e3;
+color: #00221b;
 `

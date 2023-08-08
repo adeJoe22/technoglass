@@ -64,7 +64,9 @@ export default function Contact() {
               <Address size={20}/>
             </Icon>
             <Text type="address">
-            Plot C62, Crystal Glass Close, Amowo Odofin Industrial Estate, Off Oshodi Apapa Expressway, Festac Town.
+            Plot C62, Crystal Glass Close,
+            Amowo Odofin Industrial Estate, Off Oshodi Apapa Expressway, 
+Lagos, Nigeria.
             </Text>
           </Contain>
         </MapText>
