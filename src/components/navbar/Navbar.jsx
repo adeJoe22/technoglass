@@ -1,10 +1,10 @@
-import React from "react";
-import styled from "styled-components";
-import { Link } from "react-router-dom";
-import { FaBars } from "react-icons/fa";
-import Menu from "./Menu";
-import logo from '../../assets/Tecnologo.png'
-
+import React from 'react';
+import styled from 'styled-components';
+import { Link } from 'react-router-dom';
+import { FaBars } from 'react-icons/fa';
+import Menu from './Menu';
+import logo from '../../assets/Tecnologo.png';
+import { Box } from '@chakra-ui/react';
 
 const Navbar = ({ toggleDrawer, links }) => {
   return (
@@ -14,7 +14,11 @@ const Navbar = ({ toggleDrawer, links }) => {
           <FaBars />
         </DrawerButton>
         <SNavbarBrand>
-          <Link to='/'><img src={logo} alt={logo}/></Link>
+          <Box cursor='pointer'>
+            <Link to='/'>
+              <img src={logo} alt={logo} />
+            </Link>
+          </Box>
         </SNavbarBrand>
         <RightNav>
           <NavRoutes>
@@ -46,8 +50,7 @@ const DrawerButton = styled.button`
   }
 `;
 
-const SNavbar = styled.nav`
-`;
+const SNavbar = styled.nav``;
 const NavContainer = styled.div`
   padding: 1rem;
   height: 70px;
@@ -66,7 +69,7 @@ const SNavbarBrand = styled.div`
   margin-left: 50px;
   align-items: center;
   justify-content: center;
-  img{
+  img {
     object-fit: contain;
     width: 100%;
     height: 100%;
@@ -75,7 +78,6 @@ const SNavbarBrand = styled.div`
 const RightNav = styled.div`
   display: flex;
   margin-right: 50px;
- 
 `;
 const NavRoutes = styled.div`
   @media (max-width: 768px) {
@@ -85,7 +87,6 @@ const NavRoutes = styled.div`
   gap: 1rem;
   font-size: 1rem;
   align-items: center;
-
 `;
 const NavRoute = styled(Link)`
   text-decoration: none;
@@ -100,5 +101,3 @@ const NavRoute = styled(Link)`
     box-shadow: 0px 0px 10px white; */
   }
 `;
-
-
