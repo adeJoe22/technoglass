@@ -88,7 +88,7 @@ const ContactWrapper = styled.div`
 `
 const SectionTwo = styled.div`
   display: flex;
-  width: 90%;
+  width: 93%;
   margin: auto;
   @media screen and (max-width: 768px) {
     flex-direction: column;
