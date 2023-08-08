@@ -15,24 +15,17 @@ export default function DoubleGlazing() {
 
      <MidSection>
       <Text>
-      Our team of dedicated staff members, operating in a working area of 3500m2, is committed
-      to deliver high-performance products in every aspect of our business.
-      Technoglass is the symbol of courage and independence. TGI continues to be first with
-      significant advances translating into high-value-added materials that help create uniquely
-      better products in every application.
+      Double glazing, a process that Technoglass has mastered, involves sealing together two panes of glass with an intervening air gap. This technique significantly enhances the thermal efficiency of the glass, making it a preferred choice for energy-conscious applications. Our dedicated double glazing line ensures that we consistently deliver top-tier double-glazed glass products.
       </Text>
       <Text>
-      Driven by a commitment to innovation and excellence, we have made significant investments in
-      state-of-the-art machinery, including a hi-tech furnace, double glazing line, laminating glass
-      production line, and edging machines. Our extensive capabilities also include owning the largest
-      toughening furnace in West Africa, enabling us to produce toughened glass in sizes up to
-      2440mm x 3600mm.
+      The benefits of double glazing extend beyond energy efficiency. The air gap between the panes acts as an effective insulator, reducing heat transfer between the interior and exterior environments. This means that in hot weather, the heat stays outside, and in cold weather, the warmth stays inside, leading to a more comfortable living or working environment and lower energy bills.
       </Text>
       <Text>
-      Our success is attributed to our highly skilled personnel who bring their expertise and passion
-      to every project. By fostering close partnerships and synergies with top foreign companies, we
-      have positioned ourselves as a trusted partner for notable government and private
-      organizations in Nigeria.
+      Moreover, double glazing also provides excellent sound insulation, reducing noise pollution from busy streets or noisy neighborhoods. The two panes of glass and the air gap work together to dampen sound waves, making double-glazed windows ideal for buildings in high-traffic areas.
+      </Text>
+
+      <Text>
+      At Technoglass, we are committed to leveraging our advanced double glazing line to produce high-quality, energy-efficient, and sound-insulating glass products that meet the diverse needs of our clients. Our double-glazed glass is not just a product; it's a solution for a more comfortable, quieter, and energy-efficient environment.
       </Text>
      </MidSection>
 

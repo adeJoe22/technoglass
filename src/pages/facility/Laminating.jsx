@@ -15,24 +15,17 @@ export default function Laminating() {
 
      <MidSection>
       <Text>
-      Our team of dedicated staff members, operating in a working area of 3500m2, is committed
-      to deliver high-performance products in every aspect of our business.
-      Technoglass is the symbol of courage and independence. TGI continues to be first with
-      significant advances translating into high-value-added materials that help create uniquely
-      better products in every application.
+      The glass doesn’t shatter when broken, reducing the risk of injury. In volatile weather, laminated glass will remain in its frame, reducing the risk of accidents and making a life-threatening situation slightly safer.
       </Text>
       <Text>
-      Driven by a commitment to innovation and excellence, we have made significant investments in
-      state-of-the-art machinery, including a hi-tech furnace, double glazing line, laminating glass
-      production line, and edging machines. Our extensive capabilities also include owning the largest
-      toughening furnace in West Africa, enabling us to produce toughened glass in sizes up to
-      2440mm x 3600mm.
+      Laminating is a vital process at Technoglass, designed to enhance the safety and functionality of our glass products. By bonding two or more layers of glass with a robust plastic interlayer, we create a composite material that retains its integrity even when shattered, significantly reducing the risk of injury.
       </Text>
       <Text>
-      Our success is attributed to our highly skilled personnel who bring their expertise and passion
-      to every project. By fostering close partnerships and synergies with top foreign companies, we
-      have positioned ourselves as a trusted partner for notable government and private
-      organizations in Nigeria.
+      Beyond safety, the laminating process also offers additional benefits. It provides an effective barrier against noise, making laminated glass an excellent choice for environments where sound insulation is required. Moreover, the interlayer can be customized with a variety of materials, including colored films and fabrics, to create unique aesthetic effects or to provide privacy. Laminated glass also blocks out harmful UV rays, protecting interiors from sun damage. 
+      </Text>
+
+      <Text>
+      At Technoglass, we are committed to leveraging such advanced processes to deliver glass products that not only meet but exceed our clients' expectations in terms of safety, functionality, and aesthetics.
       </Text>
      </MidSection>
 
