@@ -25,17 +25,17 @@ export default function TopBar() {
         <div>Plot C62, Crystal Glass Close, Amowo Odofin Industrial Estate, Off Oshodi Apapa Expressway, Lagos, Nigeria.</div>
       </Address>
       <Email>
-        <AiOutlineMail/><a onClick={handleButtonEmail}>
+        <AiOutlineMail/><a href='/' onClick={handleButtonEmail}>
       <div>info@technoglassng.com</div>
       </a>
       </Email>
       </InfoWrap>
       
       <Social>
-        <div><a href='' target='_blank'><FaFacebookSquare/></a></div>
-        <div><a href='https://instagram.com/technoglass.ng?igshid=MzRlODBiNWFlZA==' target='_blank'><FaInstagram/></a></div>
-        <div><a href="linkedin.com" target='_blank'><FaLinkedin/></a></div>
-        <div><a href="https://twitter.com/TechnoglassNG?t=s1kZLlfdfReSwINckbyrgA&s=09" target='_blank'><FaTwitterSquare/></a></div>
+        <div><a href='https://business.facebook.com/latest/home?asset_id=102386489621993&business_id=1052162935966260' target='_blank' rel="noreferrer"><FaFacebookSquare/></a></div>
+        <div><a href='https://instagram.com/technoglass.ng?igshid=MzRlODBiNWFlZA==' target='_blank' rel="noreferrer"><FaInstagram/></a></div>
+        <div><a href="linkedin.com" target='_blank' rel="noreferrer"><FaLinkedin/></a></div>
+        <div><a href="https://twitter.com/TechnoglassNG?t=s1kZLlfdfReSwINckbyrgA&s=09" target='_blank' rel="noreferrer"><FaTwitterSquare/></a></div>
 
       </Social>
     </Container>

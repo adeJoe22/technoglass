@@ -37,8 +37,8 @@ export default function Office() {
      <Card
     Header="Reflecting our customers need."
     text="Friendly, competitive & service driven"
-    button1Text="Click here"
-    button2Text="Call 07065193654"
+    button1Text="Give us a call"
+    button2Text="Send us a mail"
     />
 
     <Footer />
