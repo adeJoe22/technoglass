@@ -24,15 +24,11 @@ export default function BulletResistance() {
 
       <Right>
         <Text>
-        Urban landscapes offer an ideal platform to showcase the elegance and resilience of glass. Whether commuting daily or exploring some of the world's most renowned cities, there's a high probability you've encountered or interacted with a Technoglass product.
+        Technoglass is a specialist in crafting bullet-resistant glass, often termed bulletproof or ballistic glass. This specialized glass is formulated using specialized transparent materials that have been meticulously engineered to withstand bullet impact, delivering a heightened level of security and protection.
         </Text>
 
         <Text>
-        Our expertise in glass processing has led to the development of inventive solutions in the realm of street furniture, including digital signage, public transport information systems, and glass for bus shelters. Our in-house capabilities encompass ceramic printing, which is perfectly suited for street lighting applications.
-        </Text>
-
-        <Text>
-        Technoglass has collaborated with some of the world's leading outdoor advertising agencies to craft unique glass products that captivate millions. We have experience with products that employ the latest Anti-Reflective and Dielectric coatings to ensure an unobstructed connection between you and your customers.
+        Bullet-resistant glass serves as a pivotal component within intricate barrier systems, acting as the linchpin in setups like bank teller enclosures or external storefront windows, where security takes precedence. Diverse materials such as acrylic, polycarbonate, conventional glass, and laminated combinations like Glass-Clad Polycarbonate contribute to its construction.
         </Text>
       </Right>
      </MidSection>
