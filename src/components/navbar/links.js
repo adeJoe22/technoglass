@@ -24,7 +24,8 @@ export const links = [
       { id: 44, label: 'Residential', path: '/sectors/home' },
       { id: 45, label: 'Leisure', path: '/sectors/leisure' },
       { id: 46, label: 'Transport', path: '/sectors/transport' },
-      { id: 47, label: 'World', path: '/sectors/world' },
+      { id: 47, label: 'Automotive Glasses', path: '/sectors/automotive' },
+      { id: 48, label: 'Bullet Resistance', path: '/sectors/bulletresistance' },
     ]
   },  
   { id: 5, label: 'GLASS PRODUCTS', path:'/products' },

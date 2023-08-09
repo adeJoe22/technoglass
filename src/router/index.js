@@ -11,7 +11,8 @@ import Leisure from "../pages/sectors/Leisure"
 import Office from "../pages/sectors/Office"
 import Retail from "../pages/sectors/Retail"
 import Transport from "../pages/sectors/Transport"
-import World from "../pages/sectors/World"
+import Automotive from "../pages/sectors/Automotive"
+import BulletResistance from "../pages/sectors/BulletResistance"
 import AboutLayout from '../layout/AboutLayout'
 import SectorLayout from '../layout/SectorLayout'
 import Errpage from '../Errpage'
@@ -110,8 +111,12 @@ const router = createBrowserRouter([
             element: <Retail/>
           },
           {
-            path: "world",
-            element: <World/>
+            path: "automotive",
+            element: <Automotive/>
+          },
+          {
+            path: "bulletresistance",
+            element: <BulletResistance/>
           },
         ]
       },

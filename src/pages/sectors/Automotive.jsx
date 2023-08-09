@@ -6,29 +6,29 @@ import Background from '../../assets/background.jpg'
 import Footer from '../../components/Footer'
 import UniversalGlass from '../../assets/glass-office.jpeg'
 
-export default function World() {
+export default function Automotive() {
   return (
     <WorldWrapper>
          <InnerHero
           backgroundImage={Background}
-          text="World"  
+          text="Automotive Glasses"  
      />
 
      <MidSection>
       <Left>
         <ImageContainer>
-          <OfficeText>World</OfficeText>
+          <OfficeText>Automotive Glasses</OfficeText>
           <Image src={UniversalGlass}/>
         </ImageContainer>
       </Left>
 
       <Right>
         <Text>
-        Technoglass is committed to transforming Africa's architectural landscape by delivering innovative solutions one project at a time. 
+        Technoglass offers a comprehensive range of automotive glass products that meet safety, performance, and aesthetic standards.  
         </Text>
 
         <Text>
-        The company's products are marked with the NIS Mark of Quality and conform to local and international standards, making it a trusted partner for significant entities not only in Nigeria but also in the West African Sub-region.
+        These include windshields, side and rear windows, sunroofs, and specialty glass for advanced applications. Their products stand out for their uncompromising safety, enhanced driving comfort, protection from harmful UV rays, and crystal-clear visibility
         </Text>
 
       </Right>
@@ -37,7 +37,7 @@ export default function World() {
      <Card
     Header="Reflecting our customers need."
     text="Friendly, competitive & service driven"
-    button1Text="Give us a call"
+     button1Text="Give us a call"
     button2Text="Send us a mail"
     />
 
