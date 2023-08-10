@@ -13,7 +13,11 @@ import {
 } from '@chakra-ui/react';
 import GlassImage from '../assets/blurredGlass.jpg';
 import GlassImage2 from '../assets/toughenedGlass.jpg';
-import GlassImage3 from '../assets/OceanParade.svg';
+import GlassImage3 from '../assets/OfficeSpace.jpg';
+import GlassImage4 from '../assets/Nestoil_Tower.jpg';
+import GlassImage5 from '../assets/mainhallpic.jpg';
+import GlassImage6 from '../assets/LandmarkTower.jpg';
+import GlassImage7 from '../assets/NESTOIL-TOWERS05.jpg';
 import Pexel from '../assets/pexels.jpg';
 import Pex from '../assets/pexelsdaniel460.png';
 import Bottle from '../assets/Bootleplant.png';
@@ -21,9 +25,20 @@ import Wisehelp from '../assets/Icon8.svg';
 import Curb from '../assets/Icon1.svg';
 import Coscharis from '../assets/Icon2.svg';
 import DiamondBank from '../assets/Icon3.svg';
-import Tata from '../assets/Icon4.svg';
+import Abument from '../assets/Icon4.svg';
 import Symtric from '../assets/Icon7.svg';
 import Move from '../assets/Icon9.svg';
+import GB from '../assets/GBIcon.svg';
+import KFC from '../assets/KFCIcon.svg';
+import BPL from '../assets/BPLIcon.svg';
+import Tata from '../assets/TataIcon.svg';
+import Von from '../assets/VonIcon.svg';
+import GM from '../assets/GMIcon.svg';
+import BOC from '../assets/BOCIcon.svg';
+import ASM from '../assets/ASMIIcon.svg';
+import MAN from '../assets/MANIcon.svg';
+import GLASS from '../assets/GlassIcon.svg';
+import METAS from '../assets/MetalumIcon.svg';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay } from 'swiper/modules';
 import 'swiper/css';
@@ -63,7 +78,23 @@ export default function Home() {
     },
     {
       image: GlassImage3,
-      text: 'Boutique Processing',
+      text: 'Processing',
+    },
+    {
+      image: GlassImage4,
+      text: 'Processing',
+    },
+    {
+      image: GlassImage5,
+      text: 'Processing',
+    },
+    {
+      image: GlassImage6,
+      text: 'Processing',
+    },
+    {
+      image: GlassImage7,
+      text: 'Processing',
     },
   ];
 
@@ -72,10 +103,11 @@ export default function Home() {
       image: Curb,
     },
     {
-      image: Coscharis,
+      image: GM,
     },
+
     {
-      image: Tata,
+      image: Abument,
     },
     {
       image: DiamondBank,
@@ -87,7 +119,41 @@ export default function Home() {
       image: Symtric,
     },
     {
+      image: Tata,
+    },
+    {
       image: Move,
+    },
+    {
+      image: KFC,
+    },
+    {
+      image: BPL,
+    },
+    {
+      image: MAN,
+    },
+    {
+      image: Von,
+    },
+    {
+      image: Coscharis,
+    },
+    {
+      image: GB,
+    },
+
+    {
+      image: ASM,
+    },
+    {
+      image: GLASS,
+    },
+    {
+      image: BOC,
+    },
+    {
+      image: METAS,
     },
   ];
   return (
@@ -128,13 +194,6 @@ export default function Home() {
                       justifyContent: 'center',
                       flexDirection: 'column',
                     }}
-                    // border='3px'
-                    // bgPosition='center'
-                    // bgSize='cover'
-                    // alignItems='center'
-                    // display='flex'
-                    // flexDirection='column'
-                    // justifyContent='center'
                   >
                     <Box
                       p='10px 15px'
@@ -316,10 +375,10 @@ export default function Home() {
                 <AccordionPanel pb={4}>
                   Safety glass is a type of glass that undergoes a heat
                   treatment process, such as toughening or tempering, to
-                  increase its strength and safety properties. It is essential
-                  because, in the event of breakage, safety glass crumbles into
-                  small, granular pieces instead of sharp shards, minimizing the
-                  risk of injury.
+                  increase its strength and safety properties. <br /> It is
+                  essential because, in the event of breakage, safety glass
+                  crumbles into small, granular pieces instead of sharp shards,
+                  minimizing the risk of injury.
                 </AccordionPanel>
               </AccordionItem>
               <AccordionItem>
@@ -412,9 +471,9 @@ export default function Home() {
                   Laminated glass consists of two or more layers of glass bonded
                   together with an interlayer, typically made of polyvinyl
                   butyral (PVB). This process creates a strong and durable glass
-                  that remains intact even if shattered. Laminated glass is
-                  commonly used in windows, doors, skylights, glass floors, and
-                  areas where safety and security are paramount.
+                  that remains intact even if shattered. <br /> Laminated glass
+                  is commonly used in windows, doors, skylights, glass floors,
+                  and areas where safety and security are paramount.
                 </AccordionPanel>
               </AccordionItem>
               <AccordionItem>

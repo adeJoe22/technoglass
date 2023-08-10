@@ -7,6 +7,7 @@ import {
   FaTwitterSquare,
 } from 'react-icons/fa';
 import TecnoLogo from '../assets/Tecnologo.png';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -96,14 +97,14 @@ function Footer() {
               Find Us
             </Text>
             <Box maxWidth='360px' width='100%'>
-              <Text
+              {/* <Text
                 fontSize='18px'
                 fontWeight='500'
                 lineHeight='30px'
                 color='#B7CC33'
               >
                 Lagos, Nigeria.{' '}
-              </Text>
+              </Text> */}
               <Text
                 color='#F8FAEB'
                 fontSize='16px'
@@ -151,7 +152,9 @@ function Footer() {
               <FaInstagram size={24} />
             </Box>
             <Box cursor='pointer'>
-              <FaTwitterSquare size={24} />
+              <Link to='https://mobile.twitter.com/technoglassng'>
+                <FaTwitterSquare size={24} />
+              </Link>
             </Box>
             <Box cursor='pointer'>
               <FaLinkedin size={24} />
