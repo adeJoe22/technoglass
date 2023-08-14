@@ -12,10 +12,18 @@ export default function Profile() {
       <Box maxWidth='1280px' margin='0 auto' px='25px' py='30px'>
         <Text mt='15px' fontWeight='400' fontSize='16px'>
           Technoglass Industries Limited was established in 2004 as a response
-          to the growing demand for indigenous safety glass manyfactureing, and
-          since then we have become a leading provider of cutting-edge
-          architectural and structural glass solution
+          to the growing demand for indigenous safety glass manyfactureing.
         </Text>
+        <Text>
+          Technoglass is a leading provider of high-quality architectural glass
+          solutions for commercial and residential projects. It offers a wide
+          range of products that enhance the aesthetics, functionality, and
+          sustainability of buildings. Its offerings include float glass for
+          clarity and insulation, decorative glass for unique designs,
+          energy-efficient glass for sustainability of our environment, and
+          safety glass for enhanced protection.
+        </Text>
+
         <Text mt='15px' fontWeight='400' fontSize='16px'>
           Our 24/7 facility provides a competitive supply from bespoke one off
           to high volume requirements offering an unrivalled production, quality
@@ -28,7 +36,7 @@ export default function Profile() {
           flat glass processing and offer a reliable and dedicated supply chain
           partner.
         </Text>
-        <Text mt='15px' fontWeight='400' fontSize='16px'>
+        {/* <Text mt='15px' fontWeight='400' fontSize='16px'>
           For over a decade and a half, we've been the driving force behind
           cutting-edge glass solutions that marry aesthetics, functionality, and
           sustainability. From tempered and laminated glass to intricate
@@ -40,7 +48,7 @@ export default function Profile() {
           strategic partner, bringing dreams to life through glass. Our products
           are marked with the NIS Mark of Quality, a testament to our unwavering
           dedication to excellence
-        </Text>
+        </Text> */}
 
         <Text mt='15px' fontWeight='400' fontSize='16px'>
           Join us on this journey as we continue to redefine what's possible in

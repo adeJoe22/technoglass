@@ -72,7 +72,6 @@ function Footer() {
                 lineHeight='30px'
                 fontWeight='400'
               >
-                {' '}
                 + 234-810 274 9230
               </Text>
             </Box>

@@ -51,7 +51,7 @@ export default function Home() {
     {
       image: Pex,
       title: 'Toughened glass.',
-      description: 'Based in a purpose built 55,000 square feet factory',
+      description: 'Experience the ultimate in safety and strength',
     },
     {
       image: Pexel,
@@ -82,19 +82,23 @@ export default function Home() {
     },
     {
       image: GlassImage4,
-      text: 'Processing',
+      text: 'Tempering',
     },
     {
       image: GlassImage5,
-      text: 'Processing',
+      text: 'laminating',
     },
     {
       image: GlassImage6,
-      text: 'Processing',
+      text: 'Double Glazing ',
     },
     {
       image: GlassImage7,
-      text: 'Processing',
+      text: 'Float Cutting ',
+    },
+    {
+      image: GlassImage6,
+      text: 'Waterjet Cutting',
     },
   ];
 
