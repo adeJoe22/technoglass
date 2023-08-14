@@ -14,10 +14,10 @@ import {
 import GlassImage from '../assets/blurredGlass.jpg';
 import GlassImage2 from '../assets/toughenedGlass.jpg';
 import GlassImage3 from '../assets/OfficeSpace.jpg';
-import GlassImage4 from '../assets/Nestoil_Tower.jpg';
-import GlassImage5 from '../assets/mainhallpic.jpg';
-import GlassImage6 from '../assets/LandmarkTower.jpg';
-import GlassImage7 from '../assets/NESTOIL-TOWERS05.jpg';
+import GlassImage4 from '../assets/tampered.png';
+import GlassImage5 from '../assets/CH10.jpg';
+import GlassImage7 from '../assets/LandmarkTower.jpg';
+import GlassImage6 from '../assets/doubleGlazedGlass.jpeg';
 import Pexel from '../assets/pexels.jpg';
 import Pex from '../assets/pexelsdaniel460.png';
 import Bottle from '../assets/Bootleplant.png';
