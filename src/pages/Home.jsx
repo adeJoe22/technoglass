@@ -51,7 +51,7 @@ export default function Home() {
     {
       image: Pex,
       title: 'Toughened glass.',
-      description: 'Based in a purpose built 55,000 square feet factory',
+      description: 'Experience the ultimate in safety and strength',
     },
     {
       image: Pexel,

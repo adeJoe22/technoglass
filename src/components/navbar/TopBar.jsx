@@ -1,5 +1,5 @@
-import React from 'react'
-import { styled } from 'styled-components'
+import React from 'react';
+import { styled } from 'styled-components';
 import {
   FaFacebookSquare,
   FaInstagram,
@@ -7,7 +7,7 @@ import {
   FaTwitterSquare,
   FaPhone,
 } from 'react-icons/fa';
-import {AiOutlineMail} from 'react-icons/ai'
+import { AiOutlineMail } from 'react-icons/ai';
 export default function TopBar() {
   const emailAddress = 'info@technoglassng.com';
 
@@ -18,121 +18,152 @@ export default function TopBar() {
     <Container>
       <InfoWrap>
         <PhoneNo>
-          <FaPhone/>
-          <div>+234-703 274 9126</div>          
+          <FaPhone />
+          <div>+234-703 274 9126</div>
         </PhoneNo>
         <Address>
-        <div>Plot C62, Crystal Glass Close, Amowo Odofin Industrial Estate, Off Oshodi Apapa Expressway, Lagos, Nigeria.</div>
-      </Address>
-      <Email>
-        <AiOutlineMail/><a href='/' onClick={handleButtonEmail}>
-      <div>info@technoglassng.com</div>
-      </a>
-      </Email>
+          <div>
+            Plot C62, Crystal Glass Close, Amowo Odofin Industrial Estate, Off
+            Oshodi Apapa Expressway, Lagos, Nigeria.
+          </div>
+        </Address>
+        <Email>
+          <AiOutlineMail />
+          <a href='/' onClick={handleButtonEmail}>
+            <div>info@technoglassng.com</div>
+          </a>
+        </Email>
       </InfoWrap>
-      
-      <Social>
-        <div><a href='https://business.facebook.com/latest/home?asset_id=102386489621993&business_id=1052162935966260' target='_blank' rel="noreferrer"><FaFacebookSquare/></a></div>
-        <div><a href='https://instagram.com/technoglass.ng?igshid=MzRlODBiNWFlZA==' target='_blank' rel="noreferrer"><FaInstagram/></a></div>
-        <div><a href="linkedin.com" target='_blank' rel="noreferrer"><FaLinkedin/></a></div>
-        <div><a href="https://twitter.com/TechnoglassNG?t=s1kZLlfdfReSwINckbyrgA&s=09" target='_blank' rel="noreferrer"><FaTwitterSquare/></a></div>
 
+      <Social>
+        <div>
+          <a
+            href='https://business.facebook.com/latest/home?asset_id=102386489621993&business_id=1052162935966260'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <FaFacebookSquare />
+          </a>
+        </div>
+        <div>
+          <a
+            href='https://instagram.com/technoglass.ng?igshid=MzRlODBiNWFlZA=='
+            target='_blank'
+            rel='noreferrer'
+          >
+            <FaInstagram />
+          </a>
+        </div>
+        <div>
+          <a
+            href='https://www.linkedin.com/company/technoglass-industries-limited/about/'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <FaLinkedin />
+          </a>
+        </div>
+        <div>
+          <a
+            href='https://twitter.com/TechnoglassNG?t=s1kZLlfdfReSwINckbyrgA&s=09'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <FaTwitterSquare />
+          </a>
+        </div>
       </Social>
     </Container>
-  )
+  );
 }
 
-
 const Container = styled.div`
-  
   width: 100%;
   height: 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #00221B;
-  @media screen and (max-width: 768px){
+  background-color: #00221b;
+  @media screen and (max-width: 768px) {
     flex-direction: column;
     height: 80px;
     justify-content: center;
-    
   }
-`
+`;
 
 const InfoWrap = styled.div`
-display: flex;
-align-items: center;
-color: #fff;
-font-size: 12px;
-margin-left: 70px;
-@media screen and (max-width: 768px){
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 12px;
+  margin-left: 70px;
+  @media screen and (max-width: 768px) {
     flex-direction: column;
     margin-left: 0px;
     height: 40px;
     justify-content: center;
-
   }
-`
+`;
 const PhoneNo = styled.div`
-display: flex;
-align-items: center;
-justify-content: center;
-svg{
-  margin-right: 5px;
-  font-size: 20px;
-}
-@media screen and (max-width: 768px){
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  svg {
+    margin-right: 5px;
+    font-size: 20px;
+  }
+  @media screen and (max-width: 768px) {
     margin-left: 0px;
     margin: 0px;
-  svg{  
-  font-size: 15px;
-}
-}
-`
+    svg {
+      font-size: 15px;
+    }
+  }
+`;
 const Address = styled.div`
-  margin-left:  50px;
+  margin-left: 50px;
   width: 330px;
   display: flex;
-align-items: center;
-justify-content: center;
-svg{
-  margin-right: 5px;
-  font-size: 20px;
-}
-  @media screen and (max-width: 768px){
+  align-items: center;
+  justify-content: center;
+  svg {
+    margin-right: 5px;
+    font-size: 20px;
+  }
+  @media screen and (max-width: 768px) {
     display: none;
   }
-`
+`;
 const Email = styled.div`
-margin: 20px;
-margin-left:  50px;
-display: flex;
-align-items: center;
-justify-content: center;
-svg{
-  margin-right: 5px;
-  font-size: 20px;
-}
-@media screen and (max-width: 768px){
+  margin: 20px;
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  svg {
+    margin-right: 5px;
+    font-size: 20px;
+  }
+  @media screen and (max-width: 768px) {
     margin-left: 0px;
     margin: 5px;
-  svg{  
-  font-size: 15px;
-}
+    svg {
+      font-size: 15px;
+    }
   }
-`
+`;
 const Social = styled.div`
-margin-right: 70px;
-display: flex;
-align-items: center;
-justify-content: space-between;
-width: 120px;
-div{
-  color: #ffffff;
-  font-size: 20px;
-}
-@media screen and (max-width: 768px){
+  margin-right: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 120px;
+  div {
+    color: #ffffff;
+    font-size: 20px;
+  }
+  @media screen and (max-width: 768px) {
     margin-right: 0px;
     font-size: 15px;
   }
-`
+`;
