@@ -1,4 +1,4 @@
-import { Box, Image, Text } from '@chakra-ui/react';
+import { Box, Text } from '@chakra-ui/react';
 import React from 'react';
 import { styled } from 'styled-components';
 import InnerHero from '../../components/InnerHero';
@@ -7,10 +7,8 @@ import Card from '../../components/Card';
 import Ocean from '../../assets/OceanParade.svg';
 import Ocean2 from '../../assets/OceanParade2.svg';
 import Ocean3 from '../../assets/coscharis.JPG';
-import Ocean4 from '../../assets/OceanParade4.png';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
-import '../../styles/swiper.css';
 
 export default function Profile() {
   const Data = [
@@ -156,84 +154,7 @@ export default function Profile() {
           })}
         </Swiper>
       </Box>
-      <Box maxWidth='1280px' p='25px' margin='0 auto'>
-        {/* <Box
-          display='flex'
-          mb='20px'
-          justifyContent='space-between'
-          flexDirection='row'
-        >
-          <Box>
-            <Image src={Ocean} />
-            <Text
-              fontSize='24px'
-              letterSpacing='0.24px'
-              fontWeight='600'
-              textTransform='capitalize'
-              color='#B7CC33'
-            >
-              Glass FaCADE
-            </Text>
-            <Text fontSize='16px' fontWeight='500'>
-              Ocean Parade Estate, Banana island, Lagos
-            </Text>
-          </Box>
-          <Box>
-            <Image src={Ocean2} />
-            <Text
-              fontSize='24px'
-              letterSpacing='0.24px'
-              fontWeight='600'
-              textTransform='capitalize'
-              color='#B7CC33'
-            >
-              Glass CURTAIN WALL
-            </Text>
-            <Text fontSize='16px' fontWeight='500'>
-              Murtala Muhammed International Airport Ikeja, Lagos
-            </Text>
-          </Box>
-        </Box> */}
-        {/* <Box
-          display='flex'
-          mt='20px'
-          justifyContent='space-between'
-          flexDirection='row'
-        >
-          <Box display='flex' flexDirection='row'>
-            <Box
-              width='40%'
-              display='flex'
-              flexDirection='column'
-              alignItems='center'
-            >
-              <Text
-                fontSize='24px'
-                letterSpacing='0.24px'
-                fontWeight='600'
-                color='#B7CC33'
-              >
-                Glass CURTAIN WALL
-              </Text>
-              <Text fontSize='16px' fontWeight='500'>
-                Murtala Muhammed International Airport Ikeja, Lagos
-              </Text>
-            </Box>
-            <Image src={Ocean3} />
-          </Box>{' '}
-          <Box display='flex' width='50%' flexDirection='row'>
-            <Image src={Ocean4} />
-            <Box>
-              <Text textTransform='capitalize' fontWeight='500' color='#B7CC33'>
-                Glass Curtains Wall
-              </Text>
-              <Text textTransform='capitalize' fontSize='16px' fontWeight='500'>
-                Coscharis Motors Lekki, Lagos
-              </Text>
-            </Box>
-          </Box>
-        </Box> */}
-      </Box>
+      <Box maxWidth='1280px' p='25px' margin='0 auto'></Box>
       <Card
         Header='Reflecting our customers need.'
         text='Friendly, competitive & service driven'
