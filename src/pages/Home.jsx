@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   Box,
   Button,
@@ -10,95 +10,95 @@ import {
   AccordionButton,
   AccordionPanel,
   AccordionIcon,
-} from '@chakra-ui/react';
-import GlassImage from '../assets/blurredGlass.jpg';
-import GlassImage2 from '../assets/toughenedGlass.jpg';
-import GlassImage3 from '../assets/OfficeSpace.jpg';
-import GlassImage4 from '../assets/tampered.png';
-import GlassImage5 from '../assets/CH10.jpg';
-import GlassImage7 from '../assets/LandmarkTower.jpg';
-import GlassImage6 from '../assets/doubleGlazedGlass.jpeg';
-import Pexel from '../assets/pexels.jpg';
-import Pex from '../assets/pexelsdaniel460.png';
-import Bottle from '../assets/Bootleplant.png';
-import Wisehelp from '../assets/Icon8.svg';
-import Curb from '../assets/Icon1.svg';
-import Coscharis from '../assets/Icon2.svg';
-import DiamondBank from '../assets/Icon3.svg';
-import Abument from '../assets/Icon4.svg';
-import Symtric from '../assets/Icon7.svg';
-import Move from '../assets/Icon9.svg';
-import GB from '../assets/GBIcon.svg';
-import KFC from '../assets/KFCIcon.svg';
-import BPL from '../assets/BPLIcon.svg';
-import Tata from '../assets/TataIcon.svg';
-import Von from '../assets/VonIcon.svg';
-import GM from '../assets/GMIcon.svg';
-import BOC from '../assets/BOCIcon.svg';
-import ASM from '../assets/ASMIIcon.svg';
-import MAN from '../assets/MANIcon.svg';
-import GLASS from '../assets/GlassIcon.svg';
-import METAS from '../assets/MetalumIcon.svg';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Autoplay } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import '../styles/homeStyles.scss';
-import Footer from '../components/Footer';
+} from "@chakra-ui/react";
+import GlassImage from "../assets/aisglasblog.jpg";
+import GlassImage2 from "../assets/toughenedGlass.jpg";
+import GlassImage3 from "../assets/OfficeSpace.jpg";
+import GlassImage4 from "../assets/tampered.png";
+import GlassImage5 from "../assets/CH10.jpg";
+import GlassImage7 from "../assets/LandmarkTower.jpg";
+import GlassImage6 from "../assets/doubleGlazedGlass.jpeg";
+import Pexel from "../assets/pexels.jpg";
+import Pex from "../assets/pexelsdaniel460.png";
+import Bottle from "../assets/Bootleplant.png";
+import Wisehelp from "../assets/Icon8.svg";
+import Curb from "../assets/Icon1.svg";
+import Coscharis from "../assets/Icon2.svg";
+import DiamondBank from "../assets/Icon3.svg";
+import Abument from "../assets/Icon4.svg";
+import Symtric from "../assets/Icon7.svg";
+import Move from "../assets/Icon9.svg";
+import GB from "../assets/GBIcon.svg";
+import KFC from "../assets/KFCIcon.svg";
+import BPL from "../assets/BPLIcon.svg";
+import Tata from "../assets/TataIcon.svg";
+import Von from "../assets/VonIcon.svg";
+import GM from "../assets/GMIcon.svg";
+import BOC from "../assets/BOCIcon.svg";
+import ASM from "../assets/ASMIIcon.svg";
+import MAN from "../assets/MANIcon.svg";
+import GLASS from "../assets/GlassIcon.svg";
+import METAS from "../assets/MetalumIcon.svg";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "../styles/homeStyles.scss";
+import Footer from "../components/Footer";
 
 export default function Home() {
   const Products = [
     {
       image: Pex,
-      title: 'Toughened glass.',
-      description: 'Experience the ultimate in safety and strength',
+      title: "Toughened glass.",
+      description: "Experience the ultimate in safety and strength",
     },
     {
       image: Pexel,
-      title: 'Laminated Glass',
+      title: "Laminated Glass",
       description:
-        'This low-emissivity glass reduce UV heat gain from the sun and reduce noise pollution',
+        "This low-emissivity glass reduce UV heat gain from the sun and reduce noise pollution",
     },
     {
       image: Bottle,
-      title: 'Insulated Glass',
+      title: "Insulated Glass",
       description:
-        'Insulated glass contribute to a conducive workspace, optimized energy usage, and productivity in factories and warehouse',
+        "Join our satisfied customers who have experienced the transformative power of insulated glass. See and feel the difference for yourself",
     },
   ];
 
   const Glass = [
     {
       image: GlassImage,
-      text: 'Quality and Standards',
+      text: "Quality and Standards",
     },
     {
       image: GlassImage2,
-      text: 'Innovative Glass Products',
+      text: "Innovative Glass Products",
     },
     {
       image: GlassImage3,
-      text: 'Processing',
+      text: "Processing",
     },
     {
       image: GlassImage4,
-      text: 'Tempering',
+      text: "Tempering",
     },
     {
       image: GlassImage5,
-      text: 'laminating',
+      text: "laminating",
     },
     {
       image: GlassImage6,
-      text: 'Double Glazing ',
+      text: "Double Glazing ",
     },
     {
       image: GlassImage7,
-      text: 'Float Cutting ',
+      text: "Float Cutting ",
     },
     {
       image: GlassImage6,
-      text: 'Waterjet Cutting',
+      text: "Waterjet Cutting",
     },
   ];
 
@@ -168,8 +168,8 @@ export default function Home() {
             navigation={true}
             modules={[Navigation, Autoplay]}
             style={{
-              '--swiper-pagination-color': '#fff',
-              '--swiper-navigation-color': '#fff',
+              "--swiper-pagination-color": "#fff",
+              "--swiper-navigation-color": "#fff",
             }}
             // speed={100}
             autoplay={{
@@ -181,22 +181,22 @@ export default function Home() {
               <SwiperSlide>
                 <div
                   style={{
-                    backgroundColor: '#000',
+                    backgroundColor: "#000",
                   }}
                 >
                   <Box
                     key={i}
                     className='imgContainer'
-                    height={['67vh', '100vh']}
+                    height={["67vh", "100vh"]}
                     style={{
                       backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(${item.image})`,
-                      backgroundSize: 'cover',
-                      backgroundPosition: 'center',
-                      padding: '20px',
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                      flexDirection: 'column',
+                      backgroundSize: "cover",
+                      backgroundPosition: "center",
+                      padding: "20px",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      flexDirection: "column",
                     }}
                   >
                     <Box
@@ -207,7 +207,7 @@ export default function Home() {
                     >
                       <Text
                         textAlign='center'
-                        fontSize={['22px', '42px']}
+                        fontSize={["22px", "42px"]}
                         fontWeight='600'
                         color='#FFF'
                       >
@@ -245,8 +245,8 @@ export default function Home() {
         <Box
           display='flex'
           flexDirection='column'
-          p={['15px 10px']}
-          pb={['80px', '0px']}
+          p={["15px 10px"]}
+          pb={["80px", "0px"]}
           justifyContent='center'
           margin='0 auto'
           maxWidth='1280px'
@@ -255,7 +255,7 @@ export default function Home() {
             <Text
               fontWeight='700'
               textTransform='uppercase'
-              fontSize={['42px', '48px']}
+              fontSize={["42px", "48px"]}
               color='#B7CC33'
             >
               Trusted By
@@ -272,7 +272,7 @@ export default function Home() {
             >
               {Data.map((item, i) => (
                 <Box
-                  height={['105px', '150px']}
+                  height={["105px", "150px"]}
                   display='flex'
                   justifyContent='center'
                   alignItems='center'
@@ -284,7 +284,7 @@ export default function Home() {
                 >
                   <Image
                     src={item.image}
-                    width={['90%', '95%', '99%']}
+                    width={["90%", "95%", "99%"]}
                     height='100%'
                     alt=''
                   />
@@ -296,9 +296,9 @@ export default function Home() {
         <Box
           display='flex'
           height='50vh'
-          flexDirection={['column-reverse', 'column-reverse', 'row']}
+          flexDirection={["column-reverse", "column-reverse", "row"]}
         >
-          <Box bg='#00221B' color='#FFF' width={['100%', '100%', '50%']}>
+          <Box bg='#00221B' color='#FFF' width={["100%", "100%", "50%"]}>
             <Box>
               <Box p='10%  15%'>
                 <Box>
@@ -318,7 +318,7 @@ export default function Home() {
                     borderRadius='48px'
                     letterSpacing='3px'
                     _hover={{
-                      backgroundColor: '#668f86',
+                      backgroundColor: "#668f86",
                     }}
                     textTransform='uppercase'
                     variant='outline'
@@ -329,11 +329,11 @@ export default function Home() {
               </Box>
             </Box>
           </Box>
-          <Box width={['100%', '100%', '50%']} className='imageContainer'></Box>
+          <Box width={["100%", "100%", "50%"]} className='imageContainer'></Box>
         </Box>
         <Box pt='30px' pb='30px' bg='#F7F7F7'>
           <Box p='20px' margin='0 auto' textAlign='center' maxWidth='1280px'>
-            <Text fontWeight='700' fontSize={['42px', '48px']}>
+            <Text fontWeight='700' fontSize={["42px", "48px"]}>
               FAQ's.
             </Text>
           </Box>
@@ -504,7 +504,7 @@ export default function Home() {
         </Box>
         <Box>
           <Box textAlign='center' px='20px' py='30px' margin='0 auto'>
-            <Text fontWeight='700' fontSize={['42px', '48px']}>
+            <Text fontWeight='700' fontSize={["42px", "48px"]}>
               Latest Techno Glass Articles.
             </Text>
           </Box>

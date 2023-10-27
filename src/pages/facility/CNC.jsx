@@ -1,10 +1,10 @@
-import React from 'react';
-import { styled } from 'styled-components';
-import InnerHero from '../../components/InnerHero';
-import Card from '../../components/Card';
-import CNCGlass from '../../assets/glassbuilding.jpeg';
-import Footer from '../../components/Footer';
-import { Box } from '@chakra-ui/react';
+import React from "react";
+import { styled } from "styled-components";
+import InnerHero from "../../components/InnerHero";
+import Card from "../../components/Card";
+import CNCGlass from "../../assets/floatcutter.webp";
+import Footer from "../../components/Footer";
+import { Box } from "@chakra-ui/react";
 
 export default function CNC() {
   return (
