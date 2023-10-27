@@ -1,8 +1,8 @@
-import { Box, Text } from '@chakra-ui/react';
-import React from 'react';
-import InnerHero from '../../components/InnerHero';
-import Background from '../../assets/background.jpg';
-import Card from '../../components/Card';
+import { Box, Text } from "@chakra-ui/react";
+import React from "react";
+import InnerHero from "../../components/InnerHero";
+import Background from "../../assets/CH11.jpg";
+import Card from "../../components/Card";
 
 export default function QualityAndStandard() {
   return (
@@ -12,16 +12,40 @@ export default function QualityAndStandard() {
         <Text color='#3e3e3e' fontWeight='700' fontSize='52px'>
           Testing & Standards.
         </Text>
-        Technoglass holds BSI Kitemark accreditation for our toughened safety
-        glass, toughened laminated glass and our heat soaked toughened glass.
-        EN12150-1:2000 Certificate number KM658201 – Thermally toughened soda
-        lime silicate safety glass. Clear, tinted and low iron toughened glass
-        meeting Impact Class 1 (BS EN 12600) EN14179 Glass in Building-heat
-        soaked thermally toughened soda lime silicate safety glass. Quality
-        Management System ISO 9001:2008 Certificate Number FM13720 E11 R43 ECE
-        Regulation 43 Vehicle Glazing License Number E1143R- 000557 BS EN
-        14449:2005 Glass in building – Laminated glass and laminated safety
-        glass
+        <p style={{ marginTop: "20px" }}>
+          <Text>
+            At Technoglass, we've made it our mission to redefine the standard
+            for glass products. With our unwavering commitment to safety and
+            quality, we're setting the bar high and ensuring your peace of mind.
+          </Text>
+        </p>
+        <p style={{ marginTop: "20px" }}>
+          <Text>
+            Our glass products have earned the prestigious BSI Kitemark
+            accreditation, a symbol of excellence in the industry. This
+            accreditation covers a range of our products, including toughened
+            safety glass, toughened laminated glass, and heat-soaked toughened
+            glass. It's your assurance of the highest quality and safety.
+          </Text>
+        </p>
+        <p style={{ marginTop: "20px" }}>
+          <Text>
+            Our toughened safety glass, bears the certificate number KM658201.
+            This includes clear, tinted, and low iron toughened glass, all
+            meeting Impact Class 1 standards (BS EN 12600). For heat-soaked
+            toughened glass, we hold the EN14179 certification. This means you
+            can trust in the thermal toughness and safety of our soda lime
+            silicate glass. Technoglass operates under a stringent Quality
+            Management System. Our dedication to quality is uncompromising.
+          </Text>
+        </p>
+        <p style={{ marginTop: "20px" }}>
+          <Text>
+            When you choose Technoglass, you choose uncompromising safety and
+            exceptional quality. Elevate your expectations with us, and
+            experience a world where every pane is a masterpiece.
+          </Text>
+        </p>
       </Box>
       <Card
         Header='Reflecting our customers need.'
