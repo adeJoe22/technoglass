@@ -11,16 +11,14 @@ import {
   AccordionPanel,
   AccordionIcon,
 } from "@chakra-ui/react";
-import GlassImage from "../assets/aisglasblog.jpg";
+import ReactPlayer from "react-player/lazy";
+
 import GlassImage2 from "../assets/toughenedGlass.jpg";
-import GlassImage3 from "../assets/OfficeSpace.jpg";
 import GlassImage4 from "../assets/tampered.png";
 import GlassImage5 from "../assets/CH10.jpg";
-import GlassImage7 from "../assets/LandmarkTower.jpg";
-import GlassImage6 from "../assets/doubleGlazedGlass.jpeg";
 import Pexel from "../assets/pexels.jpg";
 import Pex from "../assets/pexelsdaniel460.png";
-import Bottle from "../assets/Bootleplant.png";
+import Bottle from "../assets/glassweb.jpg";
 import Wisehelp from "../assets/Icon8.svg";
 import Curb from "../assets/Icon1.svg";
 import Coscharis from "../assets/Icon2.svg";
@@ -47,6 +45,12 @@ import "../styles/homeStyles.scss";
 import Footer from "../components/Footer";
 
 export default function Home() {
+  const Imgurl = "https://i.ibb.co/FbHNsMn/IMG-7164.jpg";
+  const ImgUr = "https://i.ibb.co/NTMWQKQ/IMG-7160.jpg";
+  const doubleImg = "https://i.ibb.co/CJmMZms/IMG-1903.jpg";
+  const WaterJet = "https://i.ibb.co/myqhxx0/IMG-7122.jpg";
+  // const TamperingLine = "https://i.ibb.co/tKzqkn9/IMG-7195.jpg";
+  const videoLink = "https://www.youtube.com/watch?v=w7xHVo9ALvM";
   const Products = [
     {
       image: Pex,
@@ -69,7 +73,7 @@ export default function Home() {
 
   const Glass = [
     {
-      image: GlassImage,
+      image: videoLink,
       text: "Quality and Standards",
     },
     {
@@ -77,7 +81,7 @@ export default function Home() {
       text: "Innovative Glass Products",
     },
     {
-      image: GlassImage3,
+      image: Imgurl,
       text: "Processing",
     },
     {
@@ -89,15 +93,15 @@ export default function Home() {
       text: "laminating",
     },
     {
-      image: GlassImage6,
+      image: doubleImg,
       text: "Double Glazing ",
     },
     {
-      image: GlassImage7,
+      image: ImgUr,
       text: "Float Cutting ",
     },
     {
-      image: GlassImage6,
+      image: WaterJet,
       text: "Waterjet Cutting",
     },
   ];
@@ -160,6 +164,7 @@ export default function Home() {
       image: METAS,
     },
   ];
+
   return (
     <div>
       <Box>
@@ -171,7 +176,8 @@ export default function Home() {
               "--swiper-pagination-color": "#fff",
               "--swiper-navigation-color": "#fff",
             }}
-            // speed={100}
+            loop={true}
+            speed={500}
             autoplay={{
               delay: 2000,
             }}
@@ -184,47 +190,69 @@ export default function Home() {
                     backgroundColor: "#000",
                   }}
                 >
-                  <Box
-                    key={i}
-                    className='imgContainer'
-                    height={["67vh", "100vh"]}
-                    style={{
-                      backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(${item.image})`,
-                      backgroundSize: "cover",
-                      backgroundPosition: "center",
-                      padding: "20px",
-                      display: "flex",
-                      alignItems: "center",
-                      justifyContent: "center",
-                      flexDirection: "column",
-                    }}
-                  >
+                  {i === 0 ? (
+                    <ReactPlayer
+                      width='100%'
+                      height={700}
+                      playing={true}
+                      volume={0.1}
+                      muted={true}
+                      url='https://www.youtube.com/watch?v=w7xHVo9ALvM'
+                    />
+                  ) : (
+                    // <video
+                    //   autoPlay
+                    //   muted
+                    //   loop
+                    //   playsInline
+                    //   width='100%'
+                    //   height='100%'
+                    // >
+                    //   <source src={item.image} type='video/mp4' />
+                    //   Your browser does not support the video tag.
+                    // </video>
                     <Box
-                      p='10px 15px'
-                      display='flex'
-                      justifyContent='center'
-                      alignItems='center'
+                      key={i}
+                      className='imgContainer'
+                      height={["67vh", "100vh"]}
+                      style={{
+                        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(${item.image})`,
+                        backgroundSize: "cover",
+                        backgroundPosition: "center",
+                        padding: "20px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        flexDirection: "column",
+                      }}
                     >
-                      <Text
-                        textAlign='center'
-                        fontSize={["22px", "42px"]}
-                        fontWeight='600'
+                      <Box
+                        p='10px 15px'
+                        display='flex'
+                        justifyContent='center'
+                        alignItems='center'
+                      >
+                        <Text
+                          textAlign='center'
+                          fontSize={["22px", "42px"]}
+                          fontWeight='600'
+                          color='#FFF'
+                        >
+                          {item.text}
+                        </Text>
+                      </Box>
+                      <Button
+                        bgGradient='linear(91.32deg,rgba(255, 255, 255, 0.2) 0%, rgba(255, 255,   255, 0.05) 98.96%)'
+                        variant='outline'
                         color='#FFF'
+                        colorScheme='whiteAlpha'
+                        p='20px'
+                        opacity={30}
                       >
                         {item.text}
-                      </Text>
+                      </Button>
                     </Box>
-                    <Button
-                      bgGradient='linear(91.32deg,rgba(255, 255, 255, 0.2) 0%, rgba(255, 255,   255, 0.05) 98.96%)'
-                      variant='outline'
-                      color='#FFF'
-                      colorScheme='whiteAlpha'
-                      p='20px'
-                      opacity={30}
-                    >
-                      {item.text}
-                    </Button>
-                  </Box>
+                  )}
                 </div>
                 {/* <Image width='100%' src={item.image} alt='' /> */}
               </SwiperSlide>
@@ -261,6 +289,7 @@ export default function Home() {
               Trusted By
             </Text>
           </Box>
+
           <Box px='35px' mb='30px' py='30px'>
             <SimpleGrid
               mt='40px'

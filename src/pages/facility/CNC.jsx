@@ -2,11 +2,11 @@ import React from "react";
 import { styled } from "styled-components";
 import InnerHero from "../../components/InnerHero";
 import Card from "../../components/Card";
-import CNCGlass from "../../assets/floatcutter.webp";
 import Footer from "../../components/Footer";
 import { Box } from "@chakra-ui/react";
 
 export default function CNC() {
+  const CNCGlass = "https://i.ibb.co/FHKXDMp/IMG-7118.jpg";
   return (
     <CNCWrapper>
       <InnerHero backgroundImage={CNCGlass} text='CNC Cutting table' />

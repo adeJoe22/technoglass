@@ -2,10 +2,11 @@ import React from "react";
 import { styled } from "styled-components";
 import InnerHero from "../../components/InnerHero";
 import Card from "../../components/Card";
-import FacilityGlass from "../../assets/glass.jpg";
+
 import Footer from "../../components/Footer";
 
 export default function DoubleGlazing() {
+  const FacilityGlass = "https://i.ibb.co/WWdBK4P/IMG-7197.jpg";
   return (
     <GlazingWrapper>
       <InnerHero backgroundImage={FacilityGlass} text='Double Glazing' />
