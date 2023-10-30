@@ -14,7 +14,7 @@ import {
 import ReactPlayer from "react-player/lazy";
 
 import GlassImage2 from "../assets/toughenedGlass.jpg";
-import GlassImage4 from "../assets/tampered.png";
+
 import GlassImage5 from "../assets/CH10.jpg";
 import Pexel from "../assets/pexels.jpg";
 import Pex from "../assets/pexelsdaniel460.png";
@@ -49,6 +49,7 @@ export default function Home() {
   const ImgUr = "https://i.ibb.co/NTMWQKQ/IMG-7160.jpg";
   const doubleImg = "https://i.ibb.co/CJmMZms/IMG-1903.jpg";
   const WaterJet = "https://i.ibb.co/myqhxx0/IMG-7122.jpg";
+  const GlassImage4 = "https://i.ibb.co/tKzqkn9/IMG-7195.jpg";
   // const TamperingLine = "https://i.ibb.co/tKzqkn9/IMG-7195.jpg";
   const videoLink = "https://www.youtube.com/watch?v=w7xHVo9ALvM";
   const Products = [
