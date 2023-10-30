@@ -12,7 +12,7 @@ import {
   AccordionIcon,
 } from "@chakra-ui/react";
 import ReactPlayer from "react-player/lazy";
-import { Player } from "video-react";
+
 import GlassImage2 from "../assets/toughenedGlass.jpg";
 import GlassImage4 from "../assets/tampered.png";
 import GlassImage5 from "../assets/CH10.jpg";
@@ -49,7 +49,7 @@ export default function Home() {
   const ImgUr = "https://i.ibb.co/NTMWQKQ/IMG-7160.jpg";
   const doubleImg = "https://i.ibb.co/CJmMZms/IMG-1903.jpg";
   const WaterJet = "https://i.ibb.co/myqhxx0/IMG-7122.jpg";
-  const TamperingLine = "https://i.ibb.co/tKzqkn9/IMG-7195.jpg";
+  // const TamperingLine = "https://i.ibb.co/tKzqkn9/IMG-7195.jpg";
   const videoLink = "https://www.youtube.com/watch?v=w7xHVo9ALvM";
   const Products = [
     {
