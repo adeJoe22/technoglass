@@ -21,22 +21,21 @@ export default function QualityAndStandard() {
         </p>
         <p style={{ marginTop: "20px" }}>
           <Text>
-            Our glass products have earned the prestigious BSI Kitemark
-            accreditation, a symbol of excellence in the industry. This
-            accreditation covers a range of our products, including toughened
-            safety glass, toughened laminated glass, and heat-soaked toughened
-            glass. It's your assurance of the highest quality and safety.
+            Our glass products stand as a testament to excellence in the
+            industry. This commitment to quality extends across various product
+            lines, including toughened safety glass, toughened laminated glass,
+            and heat-soaked toughened glass. You can trust in our dedication to
+            providing the highest quality and safety standards
           </Text>
         </p>
         <p style={{ marginTop: "20px" }}>
           <Text>
-            Our toughened safety glass, bears the certificate number KM658201.
-            This includes clear, tinted, and low iron toughened glass, all
-            meeting Impact Class 1 standards (BS EN 12600). For heat-soaked
-            toughened glass, we hold the EN14179 certification. This means you
-            can trust in the thermal toughness and safety of our soda lime
-            silicate glass. Technoglass operates under a stringent Quality
-            Management System. Our dedication to quality is uncompromising.
+            Our toughened safety glass is available in various options,
+            including clear, tinted, and low iron toughened glass, all meeting
+            the highest standards. This ensures the thermal toughness and safety
+            of our soda-lime silicate glass. Technoglass operates under a
+            stringent Quality Management System, emphasizing our unwavering
+            commitment to upholding the highest standards of quality.
           </Text>
         </p>
         <p style={{ marginTop: "20px" }}>

@@ -1,37 +1,43 @@
-import { Box, Text } from '@chakra-ui/react';
-import React from 'react';
-import { styled } from 'styled-components';
-import InnerHero from '../../components/InnerHero';
-import Background from '../../assets/CH13.jpg';
-import Card from '../../components/Card';
-import Ocean from '../../assets/OceanParade.svg';
-import Ocean2 from '../../assets/OceanParade2.svg';
-import Ocean3 from '../../assets/coscharis.JPG';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Box, Text } from "@chakra-ui/react";
+import React from "react";
+import { styled } from "styled-components";
+import InnerHero from "../../components/InnerHero";
+import Background from "../../assets/CH13.jpg";
+import Card from "../../components/Card";
+import Ocean from "../../assets/OceanParade.svg";
+import Ocean2 from "../../assets/MMIA2.jpeg";
+import Ocean3 from "../../assets/coscharis.JPG";
+import { Swiper, SwiperSlide } from "swiper/react";
+import {
+  Navigation,
+  Pagination,
+  Scrollbar,
+  A11y,
+  Autoplay,
+} from "swiper/modules";
 
 export default function Profile() {
   const Data = [
     {
       image: Ocean,
-      title: 'Glass FACADE',
-      desc: 'Ocean Parade Estate, Banana island, Lagos',
-    },
-    {
-      image: Ocean3,
-      title: 'Glass Curtain Wall And Partitioning',
-      desc: 'Murtala Muhammed International Airport, Ikeja, Lagos',
+      title: "Glass Facade",
+      desc: "Ocean Parade Estate, Banana island, Lagos",
     },
     {
       image: Ocean2,
-      title: 'Glass Curtain Wall',
-      desc: 'Coscharis Motors Lekki, Lagos',
+      title: "Glass Curtain Wall And Partitioning",
+      desc: "Murtala Muhammed International Airport, Ikeja, Lagos",
     },
     {
       image: Ocean3,
-      title: 'Glass Curtain Wall And Partitioning',
-      desc: 'Murtala Muhammed International Airport, Ikeja, Lagos',
+      title: "Glass Curtain Wall",
+      desc: "Coscharis Motors Lekki, Lagos",
     },
+    // {
+    //   image: Ocean3,
+    //   title: "Glass Curtain Wall And Partitioning",
+    //   desc: "Murtala Muhammed International Airport, Ikeja, Lagos",
+    // },
   ];
 
   return (
@@ -102,12 +108,13 @@ export default function Profile() {
         <Swiper
           navigation={true}
           style={{
-            '--swiper-pagination-color': '#004332',
-            '--swiper-navigation-color': '#004332',
-            'navigation-button': '4px',
+            "--swiper-pagination-color": "#004332",
+            "--swiper-navigation-color": "#004332",
+            "navigation-button": "4px",
           }}
-          modules={[Navigation, Pagination, Scrollbar, A11y]}
+          modules={[Navigation, Autoplay, Pagination, Scrollbar, A11y]}
           spaceBetween={5}
+          loop={true}
           slidesPerView='3'
           direction='horizontal'
           pagination={true}
@@ -124,17 +131,19 @@ export default function Profile() {
                   //   width='100%'
                   //   boxShadow='0px 0px 3px rgba(0 , 0 , 0, 0.3)'
                   style={{
-                    display: 'flex',
-                    maxWidth: '350px',
-                    borderRadius: '12px',
-                    border: '2px',
-                    height: '200px',
-                    padding: '0px',
-                    backgroundPosition: 'center',
+                    display: "flex",
+                    maxWidth: "350px",
+                    borderRadius: "12px",
+                    border: "2px",
+                    height: "200px",
+                    padding: "0px",
+                    backgroundPosition: "100% 100%",
+                    backgroundSize: "cover",
+                    // backgroundRepeat: "no-repeat";
                     backgroundImage: `url(${item.image})`,
                   }}
                 ></Box>
-                <Box px='5px' width='90%'>
+                <Box px='5px' mt='10px' width='90%'>
                   <Text
                     textAlign='center'
                     fontSize='18px'
