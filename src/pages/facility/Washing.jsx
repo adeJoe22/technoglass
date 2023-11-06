@@ -6,7 +6,7 @@ import Card from "../../components/Card";
 import Footer from "../../components/Footer";
 
 export default function Washing() {
-  const FacilityGlass = "https://i.ibb.co/C5PNJZW/IMG-7164.jpg";
+  const FacilityGlass = "https://i.ibb.co/FbHNsMn/IMG-7164.jpg";
   return (
     <WashingWrapper>
       <InnerHero backgroundImage={FacilityGlass} text='Washing' />

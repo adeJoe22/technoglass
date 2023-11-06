@@ -4,7 +4,7 @@ import InnerHero from "../../components/InnerHero";
 import Card from "../../components/Card";
 // import FacilityGlass from '../../assets/glass-city.jpg'
 import Footer from "../../components/Footer";
-const FacilityGlass = "https://i.ibb.co/myqhxx0/IMG-7122.jpg";
+const FacilityGlass = "https://i.ibb.co/ykyg33p/IMG-7122.jpg";
 export default function Waterjet() {
   return (
     <WaterjetWrapper>
