@@ -2,7 +2,7 @@ import React from "react";
 import { styled } from "styled-components";
 import InnerHero from "../../components/InnerHero";
 import Card from "../../components/Card";
-import FacilityGlass from "../../assets/Dulling.jpg";
+// import FacilityGlass from "../../assets/Dulling.jpg";
 import Footer from "../../components/Footer";
 
 export default function Dullling() {
