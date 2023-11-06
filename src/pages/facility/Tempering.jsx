@@ -6,7 +6,7 @@ import Card from "../../components/Card";
 import Footer from "../../components/Footer";
 
 export default function Tempering() {
-  const FacilityGlass = "https://i.ibb.co/tKzqkn9/IMG-7195.jpg";
+  const FacilityGlass = "https://i.ibb.co/WWdBK4P/IMG-7197.jpg";
   return (
     <TemperingWrapper>
       <InnerHero backgroundImage={FacilityGlass} text='Tempering' />

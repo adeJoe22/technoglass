@@ -50,6 +50,8 @@ export default function Home() {
   const doubleImg = "https://i.ibb.co/CJmMZms/IMG-1903.jpg";
   const WaterJet = "https://i.ibb.co/myqhxx0/IMG-7122.jpg";
   const GlassImage4 = "https://i.ibb.co/tKzqkn9/IMG-7195.jpg";
+  const Glass2 =
+    "https://nwzimg.wezhan.hk/contents/sitefiles3602/18012607/images/1411839.jpg";
   // const TamperingLine = "https://i.ibb.co/tKzqkn9/IMG-7195.jpg";
   const videoLink = "https://www.youtube.com/watch?v=w7xHVo9ALvM";
   const Products = [
@@ -104,6 +106,10 @@ export default function Home() {
     {
       image: WaterJet,
       text: "Waterjet Cutting",
+    },
+    {
+      image: Glass2,
+      text: "Polished glass",
     },
   ];
 
@@ -336,13 +342,12 @@ export default function Home() {
                     A fast, safe & efficient delivery service
                   </Text>
                   <Text mt='15px' fontWeight='400' fontSize='16px'>
-                    Based in a purpose built 55,000 square feet factory on the
-                    outskirts of Lagos with easy access to all the major
-                    motorways.
+                    Our State-of-the-Art Factory in Lagos, Perfectly Positioned
+                    for Effortless Access to Major Motorways
                   </Text>
                 </Box>
                 <Box py='25px'>
-                  <Button
+                  {/* <Button
                     color='#FFF'
                     p='12px 26px'
                     borderRadius='48px'
@@ -354,7 +359,7 @@ export default function Home() {
                     variant='outline'
                   >
                     Facility
-                  </Button>
+                  </Button> */}
                 </Box>
               </Box>
             </Box>

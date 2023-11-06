@@ -6,7 +6,7 @@ import Footer from "../../components/Footer";
 import { Box } from "@chakra-ui/react";
 
 export default function CNC() {
-  const CNCGlass = "https://i.ibb.co/FHKXDMp/IMG-7118.jpg";
+  const CNCGlass = "https://i.ibb.co/g3QC2sB/IMG-7178.jpg";
   return (
     <CNCWrapper>
       <InnerHero backgroundImage={CNCGlass} text='CNC Cutting table' />

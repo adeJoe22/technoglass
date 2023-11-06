@@ -6,9 +6,11 @@ import FacilityGlass from "../../assets/Dulling.jpg";
 import Footer from "../../components/Footer";
 
 export default function Dullling() {
+  const Dulling = "https://i.ibb.co/w6yZFPw/city-glass.webp";
+
   return (
     <DullingWrapper>
-      <InnerHero backgroundImage={FacilityGlass} text='Dulling' />
+      <InnerHero backgroundImage={Dulling} text='Dulling' />
 
       <MidSection>
         <Text>

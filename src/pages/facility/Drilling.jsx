@@ -6,7 +6,7 @@ import Card from "../../components/Card";
 import Footer from "../../components/Footer";
 
 export default function Drilling() {
-  const FacilityGlass = "https://i.ibb.co/GHqCBRB/IMG-7160.jpg";
+  const FacilityGlass = "https://i.ibb.co/ZVR468b/IMG-7155.jpg";
   return (
     <DrillngWrapper>
       <InnerHero backgroundImage={FacilityGlass} text='Drilling' />

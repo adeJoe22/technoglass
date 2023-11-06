@@ -6,7 +6,7 @@ import Card from "../../components/Card";
 import Footer from "../../components/Footer";
 
 export default function Laminating() {
-  const FacilityGlass = "https://i.ibb.co/FHKXDMp/IMG-7118.jpg";
+  const FacilityGlass = "https://i.ibb.co/WKdBrZ4/IMG-7185.jpg";
   return (
     <LaminatingWrapper>
       <InnerHero backgroundImage={FacilityGlass} text='Laminating' />
