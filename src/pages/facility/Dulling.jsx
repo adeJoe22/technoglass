@@ -6,7 +6,7 @@ import Card from "../../components/Card";
 import Footer from "../../components/Footer";
 
 export default function Dullling() {
-  const Dulling = "https://i.ibb.co/w6yZFPw/city-glass.webp";
+  const Dulling = "https://i.ibb.co/1Jw3xPJ/IMG-7174.jpg";
 
   return (
     <DullingWrapper>
