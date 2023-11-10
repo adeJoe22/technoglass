@@ -7,9 +7,11 @@ import Footer from "../../components/Footer";
 import UniversalGlass from "../../assets/zenithbank02.jpg";
 
 export default function City() {
+  const CityImage = "https://i.ibb.co/Y33YxYc/4580055-orig.jpg";
+  const DiamondImage = "https://i.ibb.co/X7cr19T/83809048.webp";
   return (
     <CityWrapper>
-      <InnerHero backgroundImage={Glass} text='City' />
+      <InnerHero backgroundImage={DiamondImage} text='City' />
 
       <MidSection>
         <Left>

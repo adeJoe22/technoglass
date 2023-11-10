@@ -10,9 +10,10 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 import Footer from "../components/Footer";
 
 export default function Contact() {
+  const Image = "https://i.ibb.co/D1CfX85/IMG-1879-2.jpg";
   return (
     <ContactWrapper>
-      <InnerHero backgroundImage={Background} text='Contact' />
+      <InnerHero backgroundImage={Image} text='Contact' />
 
       <SectionTwo>
         <FormContainer>
