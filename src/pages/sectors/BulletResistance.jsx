@@ -42,8 +42,8 @@ export default function BulletResistance() {
       <Card
         Header='Reflecting our customers need.'
         text='Friendly, competitive & service driven'
-        button1Text='Give us a call'
-        button2Text='Send us a mail'
+        button1Text='Download Brochure'
+        button2Text='Enquire More'
       />
 
       <Footer />

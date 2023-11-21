@@ -1,7 +1,7 @@
 import React from "react";
 import { styled } from "styled-components";
 import InnerHero from "../components/InnerHero";
-import Background from "../assets/factoryPlant.jpg";
+// import Background from "../assets/factoryPlant.jpg";
 import Form from "../components/Form";
 import Map from "../components/Map";
 import { BiSolidPhone } from "react-icons/bi";

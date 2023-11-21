@@ -1,79 +1,70 @@
-import React from 'react'
-import { styled } from 'styled-components'
+import React from "react";
+import { styled } from "styled-components";
 
-const Card = ({Header, text, button1Text, button2Text, onButtonClick }) => {
-  const phoneNumber = '+234 703 274 9126'; 
-
+const Card = ({ Header, text, button1Text, button2Text, onButtonClick }) => {
   const handleButtonClick = () => {
-    window.location.href = `tel:${phoneNumber}`;
+    window.open(downloadLink, "_blank");
   };
-
-  const emailAddress = 'info@technoglassng.com';
+  const downloadLink =
+    "  https://drive.google.com/file/d/13Z5enUncg2XkNUkfBhi_P1rch1SYaB7f/view?usp=sharing";
 
   const handleButtonEmail = () => {
-    window.location.href = `mailto:${emailAddress}`;
+    window.location.href = "/contact";
   };
 
   return (
     <CardWrap>
-        <CapitalText>
-            {Header}
-        </CapitalText>
+      <CapitalText>{Header}</CapitalText>
 
-        <DescText>
-            {text}
-        </DescText>
+      <DescText>{text}</DescText>
 
-        <ButtonWrapper>
+      <ButtonWrapper>
         <Button onClick={handleButtonClick}>{button1Text} </Button>
         <Button onClick={handleButtonEmail}>{button2Text} </Button>
       </ButtonWrapper>
     </CardWrap>
 
+    //  This line of code below is used to display the cards I created, just style the card as required
 
+    //    <Card
+    //    Header="Welcome to my App"
+    //    text="This is a reusable component."
+    //    button1Text="Click here"
+    //    button2Text="Click me"
+    //  />
 
-//  This line of code below is used to display the cards I created, just style the card as required 
+    //  Card output ends
+  );
+};
 
-
-//    <Card
-//    Header="Welcome to my App"
-//    text="This is a reusable component."
-//    button1Text="Click here"
-//    button2Text="Click me"
-//  />
-
-//  Card output ends
-  )
-}
-
-export default Card
+export default Card;
 
 const CardWrap = styled.div`
-width: 100%;
-background-color: #00221b;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 40px;
-`
+  width: 100%;
+  background-color: #00221b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+`;
 
 const CapitalText = styled.h1`
-    color: #fff;
-    font-size: 40px;
-    text-align: center;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    @media (max-width: 425px) {
-      font-size: 28px;
-    }
-`
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  @media (max-width: 425px) {
+    font-size: 28px;
+  }
+`;
 const DescText = styled.p`
-    color: #fff;
-    margin: 30px auto;
-    text-align: center;
-`
+  color: #fff;
+  margin: 30px auto;
+  text-align: center;
+`;
 const ButtonWrapper = styled.div`
   display: flex;
   gap: 15px;
