@@ -47,7 +47,7 @@ import Footer from "../components/Footer";
 export default function Home() {
   const Imgurl = "https://i.ibb.co/FbHNsMn/IMG-7164.jpg";
   const ImgUr = "https://i.ibb.co/NTMWQKQ/IMG-7160.jpg";
-  const doubleImg = "https://i.ibb.co/CJmMZms/IMG-1903.jpg";
+  // const doubleImg = "https://i.ibb.co/CJmMZms/IMG-1903.jpg";
   const DoubleImage = "https://i.ibb.co/K20hL58/IMG-1925.jpg";
   const WaterJet = "https://i.ibb.co/myqhxx0/IMG-7122.jpg";
   const GlassImage4 = "https://i.ibb.co/tKzqkn9/IMG-7195.jpg";

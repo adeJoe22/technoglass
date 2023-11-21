@@ -2,12 +2,12 @@ import React from "react";
 import { styled } from "styled-components";
 import InnerHero from "../../components/InnerHero";
 import Card from "../../components/Card";
-import Glass from "../../assets/CH3.jpg";
+// import Glass from "../../assets/CH3.jpg";
 import Footer from "../../components/Footer";
 import UniversalGlass from "../../assets/zenithbank02.jpg";
 
 export default function City() {
-  const CityImage = "https://i.ibb.co/Y33YxYc/4580055-orig.jpg";
+  // const CityImage = "https://i.ibb.co/Y33YxYc/4580055-orig.jpg";
   const DiamondImage = "https://i.ibb.co/X7cr19T/83809048.webp";
   return (
     <CityWrapper>
@@ -50,8 +50,8 @@ export default function City() {
       <Card
         Header='Reflecting our customers need.'
         text='Friendly, competitive & service driven'
-        button1Text='Give us a call'
-        button2Text='Send us a mail'
+        button1Text='Download Brochure'
+        button2Text='Enquire More'
       />
 
       <Footer />

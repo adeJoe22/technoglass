@@ -49,8 +49,8 @@ export default function QualityAndStandard() {
       <Card
         Header='Reflecting our customers need.'
         text='Friendly, competitive & service driven'
-        button1Text='Click here'
-        button2Text='Click me'
+        button1Text='Download Brochure'
+        button2Text='Enquire More'
       />
     </Box>
   );
